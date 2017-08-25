@@ -1,0 +1,4 @@
+#!/usr/bin/env /opt/lms_edx/edx-ficus.3-3/python/bin/python
+# EASY-INSTALL-SCRIPT: 'jmespath==0.4.1','jp'
+__requires__ = 'jmespath==0.4.1'
+__import__('pkg_resources').run_script('jmespath==0.4.1', 'jp')

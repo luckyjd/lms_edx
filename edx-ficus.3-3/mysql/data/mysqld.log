@@ -1,0 +1,34 @@
+2017-08-24 18:51:30 13411 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-24 18:51:30 13411 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-08-24 18:51:30 13411 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-24 18:51:30 13411 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-08-24 18:51:30 13411 [Note] InnoDB: Memory barrier is not used
+2017-08-24 18:51:30 13411 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-24 18:51:30 13411 [Note] InnoDB: Using Linux native AIO
+2017-08-24 18:51:30 13411 [Note] InnoDB: Using CPU crc32 instructions
+2017-08-24 18:51:30 13411 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-08-24 18:51:30 13411 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-24 18:51:30 13411 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-24 18:51:30 13411 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-24 18:51:30 13411 [Note] InnoDB: Waiting for purge to start
+2017-08-24 18:51:30 13411 [Note] InnoDB: 5.6.37 started; log sequence number 1625987
+2017-08-24 18:51:30 13411 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 9173f6bb-88c2-11e7-93fb-000c29c35ddd.
+2017-08-24 18:51:30 13411 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3307
+2017-08-24 18:51:30 13411 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2017-08-24 18:51:30 13411 [Note] Server socket created on IP: '127.0.0.1'.
+2017-08-24 18:51:30 13411 [Warning] 'user' entry 'root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:51:30 13411 [Warning] 'user' entry '@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:51:30 13411 [Warning] 'proxies_priv' entry '@ root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:51:30 13411 [Note] Event Scheduler: Loaded 0 events
+2017-08-24 18:51:30 13411 [Note] /opt/lms_edx/edx-ficus.3-3/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.37'  socket: '/opt/lms_edx/edx-ficus.3-3/mysql/tmp/mysql.sock'  port: 3307  MySQL Community Server (GPL)
+2017-08-24 18:51:43 13411 [Warning] 'user' entry 'root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:51:43 13411 [Warning] 'proxies_priv' entry '@ root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:53:27 13411 [Warning] 'user' entry 'root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:53:27 13411 [Warning] 'proxies_priv' entry '@ root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:53:31 13411 [Warning] 'user' entry 'root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:53:31 13411 [Warning] 'proxies_priv' entry '@ root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:54:36 13411 [Warning] 'user' entry 'root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:54:36 13411 [Warning] 'proxies_priv' entry '@ root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:54:40 13411 [Warning] 'user' entry 'root@lms-srv' ignored in --skip-name-resolve mode.
+2017-08-24 18:54:40 13411 [Warning] 'proxies_priv' entry '@ root@lms-srv' ignored in --skip-name-resolve mode.

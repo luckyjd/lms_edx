@@ -1,0 +1,41 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bluecloth-2.2.0/ext
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-11447-1s2pe1u.rb extconf.rb
+checking for srand()... yes
+checking for random()... yes
+checking for bzero() in string.h,strings.h... yes
+checking for strcasecmp()... yes
+checking for strncasecmp()... yes
+checking for mkdio.h... yes
+checking for ruby/encoding.h... yes
+creating extconf.h
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0-static/bluecloth-2.2.0/mkmf.log
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bluecloth-2.2.0/ext
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bluecloth-2.2.0/ext
+make "DESTDIR="
+compiling bluecloth.c
+compiling xmlpage.c
+compiling emmatch.c
+compiling css.c
+compiling xml.c
+compiling docheader.c
+compiling version.c
+compiling tags.c
+compiling markdown.c
+compiling html5.c
+compiling Csio.c
+compiling generate.c
+compiling resource.c
+compiling mkdio.c
+compiling setup.c
+linking shared-object bluecloth_ext.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bluecloth-2.2.0/ext
+make "DESTDIR=" install
+/bin/install -c -m 0755 bluecloth_ext.so ./.gem.20170811-11447-114hjav

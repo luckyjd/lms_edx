@@ -1,0 +1,11 @@
+*.so
+pkg
+tags
+TAGS
+Makefile
+*.so
+*.o
+*.log
+/doc
+/.config
+/InstalledFiles

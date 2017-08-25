@@ -1,0 +1,3 @@
+--with-sqlite3-dir=/bitnami/megastack-linux-x64/output/sqlite
+--with-sqlite3-lib=/bitnami/megastack-linux-x64/output/sqlite/lib
+--with-sqlite3-include=/bitnami/megastack-linux-x64/output/sqlite/include

@@ -1,0 +1,15 @@
+{% load i18n %}
+{% spaceless %}
+<div id="openassessment__message__{{ xblock_id }}" class="openassessment__message message">
+    <h4 class="message__title">{% trans "Status" %} </h4>
+    <div class="message__content">
+        <p>
+            {% if waiting %}
+                <p>{% trans "You have completed this assignment. Your final grade will be available when the assessments of your response are complete." %}</p>
+            {% else %}
+                <a data-behavior="ui-scroll" href="#openassessment__grade__{{ xblock_id }}">{% trans "You have completed this assignment. Review your grade and your assessment details." %}</a>
+            {% endif %}
+        </p>
+    </div>
+</div>
+{% endspaceless %}

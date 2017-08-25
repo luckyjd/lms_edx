@@ -1,0 +1,6 @@
+selenium>=2.33.0
+
+[zope.testbrowser]
+zope.testbrowser>=4.0.2
+lxml>=2.3.6
+cssselect

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: moto
+Version: 0.3.1
+Summary: A library that allows your python tests to easily mock out the boto library
+Home-page: https://github.com/spulec/moto
+Author: Steve Pulec
+Author-email: spulec@gmail
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

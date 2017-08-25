@@ -1,0 +1,62 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/charlock_holmes-0.6.9.4/ext/charlock_holmes
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-32308-1bts9qg.rb extconf.rb --with-icu-dir=/bitnami/megastack-linux-x64/output/common --with-icu-lib=/bitnami/megastack-linux-x64/output/common/lib
+checking for main() in -licui18n... yes
+checking for main() in -licui18n... yes
+checking for unicode/ucnv.h... yes
+  -- tar zxvf file-5.08.tar.gz
+  -- ./configure --prefix=/bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/charlock_holmes-0.6.9.4/ext/charlock_holmes/dst/ --disable-shared --enable-static --with-pic
+  -- patch -p0 < ../file-soft-check.patch
+  -- make -C src install
+  -- make -C magic install
+checking for main() in -lmagic_ext... yes
+checking for magic.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0-static/charlock_holmes-0.6.9.4/mkmf.log
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/charlock_holmes-0.6.9.4/ext/charlock_holmes
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/charlock_holmes-0.6.9.4/ext/charlock_holmes
+make "DESTDIR="
+compiling ext.c
+In file included from ext.c:1:0:
+common.h:14:14: warning: 'charlock_new_enc_str' defined but not used [-Wunused-function]
+ static VALUE charlock_new_enc_str(const char *str, size_t len, void *encoding)
+              ^
+common.h:23:14: warning: 'charlock_new_str' defined but not used [-Wunused-function]
+ static VALUE charlock_new_str(const char *str, size_t len)
+              ^
+common.h:32:14: warning: 'charlock_new_str2' defined but not used [-Wunused-function]
+ static VALUE charlock_new_str2(const char *str)
+              ^
+compiling converter.c
+In file included from converter.c:2:0:
+common.h:23:14: warning: 'charlock_new_str' defined but not used [-Wunused-function]
+ static VALUE charlock_new_str(const char *str, size_t len)
+              ^
+common.h:32:14: warning: 'charlock_new_str2' defined but not used [-Wunused-function]
+ static VALUE charlock_new_str2(const char *str)
+              ^
+compiling encoding_detector.c
+In file included from encoding_detector.c:3:0:
+common.h:14:14: warning: 'charlock_new_enc_str' defined but not used [-Wunused-function]
+ static VALUE charlock_new_enc_str(const char *str, size_t len, void *encoding)
+              ^
+compiling transliterator.cpp
+cc1plus: warning: command line option '-Wdeclaration-after-statement' is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option '-Wimplicit-function-declaration' is valid for C/ObjC but not for C++ [enabled by default]
+In file included from transliterator.cpp:1:0:
+common.h:14:14: warning: 'VALUE charlock_new_enc_str(const char*, size_t, void*)' defined but not used [-Wunused-function]
+ static VALUE charlock_new_enc_str(const char *str, size_t len, void *encoding)
+              ^
+common.h:32:14: warning: 'VALUE charlock_new_str2(const char*)' defined but not used [-Wunused-function]
+ static VALUE charlock_new_str2(const char *str)
+              ^
+linking shared-object charlock_holmes/charlock_holmes.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/charlock_holmes-0.6.9.4/ext/charlock_holmes
+make "DESTDIR=" install
+/bin/install -c -m 0755 charlock_holmes.so ./.gem.20170811-32308-v9kt8e/charlock_holmes

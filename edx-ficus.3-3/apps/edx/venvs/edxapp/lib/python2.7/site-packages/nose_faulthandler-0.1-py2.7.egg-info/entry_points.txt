@@ -1,0 +1,3 @@
+[nose.plugins]
+nose_faulthandler = nose_faulthandler:FaultHandler
+

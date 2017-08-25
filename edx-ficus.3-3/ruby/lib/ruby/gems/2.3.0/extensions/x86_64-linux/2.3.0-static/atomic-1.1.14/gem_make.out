@@ -1,0 +1,23 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/atomic-1.1.14/ext
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-32209-19h9c60.rb extconf.rb
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0-static/atomic-1.1.14/mkmf.log
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/atomic-1.1.14/ext
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/atomic-1.1.14/ext
+make "DESTDIR="
+compiling atomic_reference.c
+atomic_reference.c: In function 'ir_alloc':
+atomic_reference.c:23:5: warning: 'rb_data_object_alloc' is deprecated (declared at /bitnami/megastack-linux-x64/output/ruby/include/ruby-2.3.0/ruby/ruby.h:1428): by rb_data_object_wrap [-Wdeprecated-declarations]
+     return rb_data_object_alloc(klass, (void *) Qnil, ir_mark, NULL);
+     ^
+linking shared-object atomic_reference.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/atomic-1.1.14/ext
+make "DESTDIR=" install
+/bin/install -c -m 0755 atomic_reference.so ./.gem.20170811-32209-1d2qznt

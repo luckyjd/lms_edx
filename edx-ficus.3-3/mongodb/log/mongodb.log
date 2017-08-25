@@ -1,0 +1,788 @@
+about to fork child process, waiting until server is ready for connections.
+forked process: 13455
+2017-08-24T18:51:47.608+0700 ***** SERVER RESTARTED *****
+2017-08-24T18:51:47.614+0700 [initandlisten] MongoDB starting : pid=13455 port=27017 dbpath=/opt/lms_edx/edx-ficus.3-3/mongodb/data/db 64-bit host=LMS-SRV
+2017-08-24T18:51:47.614+0700 [initandlisten] db version v2.6.12
+2017-08-24T18:51:47.614+0700 [initandlisten] git version: d73c92b1c85703828b55c2916a5dd4ad46535f6a
+2017-08-24T18:51:47.614+0700 [initandlisten] build info: Linux build5.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2017-08-24T18:51:47.614+0700 [initandlisten] allocator: tcmalloc
+2017-08-24T18:51:47.614+0700 [initandlisten] options: { config: "/opt/lms_edx/edx-ficus.3-3/mongodb/mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017, unixDomainSocket: { pathPrefix: "/opt/lms_edx/edx-ficus.3-3/mongodb/tmp" } }, processManagement: { fork: true, pidFilePath: "/opt/lms_edx/edx-ficus.3-3/mongodb/tmp/mongodb.pid" }, storage: { dbPath: "/opt/lms_edx/edx-ficus.3-3/mongodb/data/db", journal: { enabled: false } }, systemLog: { destination: "file", logAppend: true, path: "/opt/lms_edx/edx-ficus.3-3/mongodb/log/mongodb.log" } }
+child process started successfully, parent exiting
+2017-08-24T18:51:47.637+0700 [initandlisten] allocating new ns file /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/local.ns, filling with zeroes...
+2017-08-24T18:51:47.804+0700 [FileAllocator] allocating new datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/local.0, filling with zeroes...
+2017-08-24T18:51:47.804+0700 [FileAllocator] creating directory /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/_tmp
+2017-08-24T18:51:47.806+0700 [FileAllocator] done allocating datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/local.0, size: 64MB,  took 0.001 secs
+2017-08-24T18:51:47.807+0700 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2017-08-24T18:51:47.807+0700 [initandlisten] 	 added index to empty collection
+2017-08-24T18:51:47.808+0700 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:37 170ms
+2017-08-24T18:51:47.808+0700 [initandlisten] waiting for connections on port 27017
+2017-08-24T18:51:58.393+0700 [initandlisten] connection accepted from anonymous unix socket #1 (1 connection now open)
+2017-08-24T18:51:58.395+0700 [conn1] allocating new ns file /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/admin.ns, filling with zeroes...
+2017-08-24T18:51:58.589+0700 [FileAllocator] allocating new datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/admin.0, filling with zeroes...
+2017-08-24T18:51:58.590+0700 [FileAllocator] done allocating datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/admin.0, size: 64MB,  took 0.001 secs
+2017-08-24T18:51:58.591+0700 [conn1] build index on: admin.system.version properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "admin.system.version" }
+2017-08-24T18:51:58.591+0700 [conn1] 	 added index to empty collection
+2017-08-24T18:51:58.591+0700 [conn1] update admin.system.version query: { _id: "authSchema" } update: { $set: { currentVersion: 3 } } nMatched:1 nModified:0 upsert:1 keyUpdates:0 numYields:0  195ms
+2017-08-24T18:51:58.591+0700 [conn1] build index on: admin.system.users properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "admin.system.users" }
+2017-08-24T18:51:58.591+0700 [conn1] 	 added index to empty collection
+2017-08-24T18:51:58.592+0700 [conn1] build index on: admin.system.users properties: { v: 1, unique: true, key: { user: 1, db: 1 }, name: "user_1_db_1", ns: "admin.system.users" }
+2017-08-24T18:51:58.592+0700 [conn1] 	 added index to empty collection
+2017-08-24T18:51:58.592+0700 [conn1] command admin.$cmd command: createUser { createUser: "root", pwd: "xxx", roles: [ "readWriteAnyDatabase", "userAdminAnyDatabase", "dbAdminAnyDatabase", "clusterAdmin" ], digestPassword: false, writeConcern: { w: "majority", wtimeout: 30000.0 } } keyUpdates:0 numYields:0  reslen:37 197ms
+2017-08-24T18:51:58.596+0700 [conn1] end connection anonymous unix socket (0 connections now open)
+2017-08-24T18:52:47.639+0700 [clientcursormon] mem (MB) res:43 virt:304
+2017-08-24T18:52:47.639+0700 [clientcursormon]  mapped:160
+2017-08-24T18:52:47.639+0700 [clientcursormon]  connections:0
+2017-08-24T18:54:00.456+0700 [initandlisten] connection accepted from 127.0.0.1:41854 #2 (1 connection now open)
+2017-08-24T18:54:00.456+0700 [conn2] end connection 127.0.0.1:41854 (0 connections now open)
+2017-08-24T18:54:01.787+0700 [initandlisten] connection accepted from anonymous unix socket #3 (1 connection now open)
+2017-08-24T18:54:01.792+0700 [conn3] end connection anonymous unix socket (0 connections now open)
+2017-08-24T18:54:10.124+0700 [initandlisten] connection accepted from 127.0.0.1:41856 #4 (1 connection now open)
+2017-08-24T18:54:10.124+0700 [conn4] end connection 127.0.0.1:41856 (0 connections now open)
+2017-08-24T18:54:11.690+0700 [initandlisten] connection accepted from anonymous unix socket #5 (1 connection now open)
+2017-08-24T18:54:11.695+0700 [conn5] end connection anonymous unix socket (0 connections now open)
+2017-08-24T18:54:22.815+0700 [initandlisten] connection accepted from 127.0.0.1:41866 #6 (1 connection now open)
+2017-08-24T18:54:22.815+0700 [conn6] end connection 127.0.0.1:41866 (0 connections now open)
+2017-08-24T18:54:22.815+0700 [initandlisten] connection accepted from 127.0.0.1:41868 #7 (1 connection now open)
+2017-08-24T18:54:22.817+0700 [initandlisten] connection accepted from 127.0.0.1:41870 #8 (2 connections now open)
+2017-08-24T18:54:22.819+0700 [conn8]  authenticate db: cs_comments_service { authenticate: 1, user: "bn_forum", nonce: "xxx", key: "xxx" }
+2017-08-24T18:54:49.641+0700 [initandlisten] connection accepted from 127.0.0.1:41878 #9 (3 connections now open)
+2017-08-24T18:54:49.642+0700 [conn9] end connection 127.0.0.1:41878 (2 connections now open)
+2017-08-24T18:54:51.022+0700 [initandlisten] connection accepted from anonymous unix socket #10 (3 connections now open)
+2017-08-24T18:54:51.027+0700 [conn10] end connection anonymous unix socket (2 connections now open)
+2017-08-24T18:57:47.671+0700 [clientcursormon] mem (MB) res:46 virt:306
+2017-08-24T18:57:47.671+0700 [clientcursormon]  mapped:160
+2017-08-24T18:57:47.671+0700 [clientcursormon]  connections:2
+2017-08-24T19:02:47.685+0700 [clientcursormon] mem (MB) res:43 virt:306
+2017-08-24T19:02:47.685+0700 [clientcursormon]  mapped:160
+2017-08-24T19:02:47.685+0700 [clientcursormon]  connections:2
+2017-08-24T19:07:47.697+0700 [clientcursormon] mem (MB) res:43 virt:306
+2017-08-24T19:07:47.697+0700 [clientcursormon]  mapped:160
+2017-08-24T19:07:47.697+0700 [clientcursormon]  connections:2
+2017-08-24T19:12:47.724+0700 [clientcursormon] mem (MB) res:40 virt:306
+2017-08-24T19:12:47.724+0700 [clientcursormon]  mapped:160
+2017-08-24T19:12:47.724+0700 [clientcursormon]  connections:2
+2017-08-24T19:17:47.743+0700 [clientcursormon] mem (MB) res:40 virt:306
+2017-08-24T19:17:47.744+0700 [clientcursormon]  mapped:160
+2017-08-24T19:17:47.744+0700 [clientcursormon]  connections:2
+2017-08-24T19:19:24.047+0700 [conn8] end connection 127.0.0.1:41870 (1 connection now open)
+2017-08-24T19:19:24.047+0700 [initandlisten] connection accepted from 127.0.0.1:41888 #11 (2 connections now open)
+2017-08-24T19:19:24.058+0700 [conn11]  authenticate db: cs_comments_service { authenticate: 1, user: "bn_forum", nonce: "xxx", key: "xxx" }
+2017-08-24T19:19:24.126+0700 [conn11] allocating new ns file /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/cs_comments_service.ns, filling with zeroes...
+2017-08-24T19:19:24.274+0700 [FileAllocator] allocating new datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/cs_comments_service.0, filling with zeroes...
+2017-08-24T19:19:24.276+0700 [FileAllocator] done allocating datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/cs_comments_service.0, size: 64MB,  took 0.001 secs
+2017-08-24T19:19:24.276+0700 [conn11] build index on: cs_comments_service.users properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "cs_comments_service.users" }
+2017-08-24T19:19:24.276+0700 [conn11] 	 added index to empty collection
+2017-08-24T19:19:24.276+0700 [conn11] insert cs_comments_service.users query: { default_sort_key: "date", external_id: "2", _id: "2", username: "nhattx" } ninserted:1 keyUpdates:0 numYields:0 locks(micros) w:150973 150ms
+2017-08-24T19:19:24.277+0700 [conn11] command cs_comments_service.$cmd command: insert { insert: "users", documents: [ { default_sort_key: "date", external_id: "2", _id: "2", username: "nhattx" } ], writeConcern: { w: 1 }, ordered: true } keyUpdates:0 numYields:0 locks(micros) w:54 reslen:40 168ms
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] now exiting
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] dbexit: 
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] shutdown: going to close listening sockets...
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] closing listening socket: 8
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] closing listening socket: 9
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] removing socket file: /opt/lms_edx/edx-ficus.3-3/mongodb/tmp/mongodb-27017.sock
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] shutdown: going to flush diaglog...
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] shutdown: going to close sockets...
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2017-08-24T19:19:39.401+0700 [signalProcessingThread] shutdown: closing all files...
+2017-08-24T19:19:39.401+0700 [conn7] end connection 127.0.0.1:41868 (1 connection now open)
+2017-08-24T19:19:39.402+0700 [conn11] end connection 127.0.0.1:41888 (1 connection now open)
+2017-08-24T19:19:39.402+0700 [signalProcessingThread] closeAllFiles() finished
+2017-08-24T19:19:39.402+0700 [signalProcessingThread] shutdown: removing fs lock...
+2017-08-24T19:19:39.402+0700 [signalProcessingThread] dbexit: really exiting now
+about to fork child process, waiting until server is ready for connections.
+forked process: 17189
+2017-08-24T19:19:46.499+0700 ***** SERVER RESTARTED *****
+2017-08-24T19:19:46.515+0700 [initandlisten] MongoDB starting : pid=17189 port=27017 dbpath=/opt/lms_edx/edx-ficus.3-3/mongodb/data/db 64-bit host=LMS-SRV
+2017-08-24T19:19:46.515+0700 [initandlisten] db version v2.6.12
+2017-08-24T19:19:46.515+0700 [initandlisten] git version: d73c92b1c85703828b55c2916a5dd4ad46535f6a
+2017-08-24T19:19:46.515+0700 [initandlisten] build info: Linux build5.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2017-08-24T19:19:46.515+0700 [initandlisten] allocator: tcmalloc
+2017-08-24T19:19:46.515+0700 [initandlisten] options: { config: "/opt/lms_edx/edx-ficus.3-3/mongodb/mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017, unixDomainSocket: { pathPrefix: "/opt/lms_edx/edx-ficus.3-3/mongodb/tmp" } }, processManagement: { fork: true, pidFilePath: "/opt/lms_edx/edx-ficus.3-3/mongodb/tmp/mongodb.pid" }, security: { authorization: "enabled" }, setParameter: { enableLocalhostAuthBypass: "0" }, storage: { dbPath: "/opt/lms_edx/edx-ficus.3-3/mongodb/data/db", journal: { enabled: true }, smallFiles: true }, systemLog: { destination: "file", logAppend: true, path: "/opt/lms_edx/edx-ficus.3-3/mongodb/log/mongodb.log" } }
+2017-08-24T19:19:46.538+0700 [initandlisten] journal dir=/opt/lms_edx/edx-ficus.3-3/mongodb/data/db/journal
+2017-08-24T19:19:46.538+0700 [initandlisten] recover : no journal files present, no recovery needed
+2017-08-24T19:19:46.702+0700 [initandlisten] preallocateIsFaster=true 2.78
+2017-08-24T19:19:46.846+0700 [initandlisten] preallocateIsFaster=true 2.52
+child process started successfully, parent exiting
+2017-08-24T19:19:48.146+0700 [initandlisten] waiting for connections on port 27017
+2017-08-24T19:20:23.146+0700 [initandlisten] connection accepted from 127.0.0.1:41930 #1 (1 connection now open)
+2017-08-24T19:20:23.146+0700 [conn1] end connection 127.0.0.1:41930 (0 connections now open)
+2017-08-24T19:20:23.147+0700 [initandlisten] connection accepted from 127.0.0.1:41932 #2 (1 connection now open)
+2017-08-24T19:20:23.149+0700 [initandlisten] connection accepted from 127.0.0.1:41934 #3 (2 connections now open)
+2017-08-24T19:20:23.152+0700 [conn3]  authenticate db: cs_comments_service { authenticate: 1, user: "bn_forum", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:27.300+0700 [initandlisten] connection accepted from 127.0.0.1:41936 #4 (3 connections now open)
+2017-08-24T19:20:27.301+0700 [conn4]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:27.303+0700 [conn4] allocating new ns file /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/bitnami_edxapp.ns, filling with zeroes...
+2017-08-24T19:20:27.513+0700 [FileAllocator] allocating new datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/bitnami_edxapp.0, filling with zeroes...
+2017-08-24T19:20:27.513+0700 [FileAllocator] creating directory /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/_tmp
+2017-08-24T19:20:27.514+0700 [FileAllocator] done allocating datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/bitnami_edxapp.0, size: 16MB,  took 0 secs
+2017-08-24T19:20:27.515+0700 [conn4] build index on: bitnami_edxapp.fs.chunks properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "bitnami_edxapp.fs.chunks" }
+2017-08-24T19:20:27.515+0700 [conn4] 	 added index to empty collection
+2017-08-24T19:20:27.515+0700 [conn4] build index on: bitnami_edxapp.fs.chunks properties: { v: 1, unique: true, key: { files_id: 1, n: 1 }, name: "files_id_1_n_1", ns: "bitnami_edxapp.fs.chunks" }
+2017-08-24T19:20:27.515+0700 [conn4] 	 added index to empty collection
+2017-08-24T19:20:27.515+0700 [conn4] command bitnami_edxapp.$cmd command: createIndexes { createIndexes: "fs.chunks", indexes: [ { unique: true, name: "files_id_1_n_1", key: { files_id: 1, n: 1 } } ] } keyUpdates:0 numYields:0 locks(micros) W:104 r:5 w:212735 reslen:113 212ms
+2017-08-24T19:20:27.517+0700 [initandlisten] connection accepted from 127.0.0.1:41938 #5 (4 connections now open)
+2017-08-24T19:20:27.518+0700 [conn5]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:27.519+0700 [initandlisten] connection accepted from 127.0.0.1:41940 #6 (5 connections now open)
+2017-08-24T19:20:27.520+0700 [conn6]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:29.017+0700 [initandlisten] connection accepted from 127.0.0.1:41942 #7 (6 connections now open)
+2017-08-24T19:20:29.017+0700 [conn7]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:29.621+0700 [initandlisten] connection accepted from 127.0.0.1:41944 #8 (7 connections now open)
+2017-08-24T19:20:29.622+0700 [conn8]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:29.793+0700 [initandlisten] connection accepted from 127.0.0.1:41946 #9 (8 connections now open)
+2017-08-24T19:20:29.794+0700 [conn9]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:29.962+0700 [conn5] build index on: bitnami_edxapp.modulestore.structures properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "bitnami_edxapp.modulestore.structures" }
+2017-08-24T19:20:29.962+0700 [conn5] 	 added index to empty collection
+2017-08-24T19:20:29.963+0700 [conn5] build index on: bitnami_edxapp.modulestore.definitions properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "bitnami_edxapp.modulestore.definitions" }
+2017-08-24T19:20:29.964+0700 [conn5] 	 added index to empty collection
+2017-08-24T19:20:29.965+0700 [conn5] build index on: bitnami_edxapp.modulestore.active_versions properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "bitnami_edxapp.modulestore.active_versions" }
+2017-08-24T19:20:29.965+0700 [conn5] 	 added index to empty collection
+2017-08-24T19:20:30.283+0700 [initandlisten] connection accepted from 127.0.0.1:41958 #10 (9 connections now open)
+2017-08-24T19:20:30.285+0700 [conn10]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:30.393+0700 [initandlisten] connection accepted from 127.0.0.1:41964 #11 (10 connections now open)
+2017-08-24T19:20:30.394+0700 [conn11]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:30.556+0700 [conn4] build index on: bitnami_edxapp.fs.files properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "bitnami_edxapp.fs.files" }
+2017-08-24T19:20:30.556+0700 [conn4] 	 added index to empty collection
+2017-08-24T19:20:31.015+0700 [initandlisten] connection accepted from 127.0.0.1:41972 #12 (11 connections now open)
+2017-08-24T19:20:31.016+0700 [conn12]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:31.123+0700 [initandlisten] connection accepted from 127.0.0.1:41974 #13 (12 connections now open)
+2017-08-24T19:20:31.124+0700 [conn13]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:31.203+0700 [initandlisten] connection accepted from 127.0.0.1:41978 #14 (13 connections now open)
+2017-08-24T19:20:31.204+0700 [conn14]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:31.315+0700 [initandlisten] connection accepted from 127.0.0.1:41984 #15 (14 connections now open)
+2017-08-24T19:20:31.316+0700 [conn15]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:33.526+0700 [FileAllocator] allocating new datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/bitnami_edxapp.1, filling with zeroes...
+2017-08-24T19:20:33.528+0700 [FileAllocator] done allocating datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/bitnami_edxapp.1, size: 32MB,  took 0.002 secs
+2017-08-24T19:20:36.755+0700 [FileAllocator] allocating new datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/bitnami_edxapp.2, filling with zeroes...
+2017-08-24T19:20:36.756+0700 [FileAllocator] done allocating datafile /opt/lms_edx/edx-ficus.3-3/mongodb/data/db/bitnami_edxapp.2, size: 64MB,  took 0.001 secs
+2017-08-24T19:20:41.441+0700 [initandlisten] connection accepted from 127.0.0.1:42004 #16 (15 connections now open)
+2017-08-24T19:20:41.443+0700 [conn16]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:42.124+0700 [initandlisten] connection accepted from 127.0.0.1:42006 #17 (16 connections now open)
+2017-08-24T19:20:42.125+0700 [conn17]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:42.302+0700 [initandlisten] connection accepted from 127.0.0.1:42008 #18 (17 connections now open)
+2017-08-24T19:20:42.303+0700 [conn18]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:20:44.278+0700 [conn6] end connection 127.0.0.1:41940 (16 connections now open)
+2017-08-24T19:20:44.306+0700 [conn4] end connection 127.0.0.1:41936 (15 connections now open)
+2017-08-24T19:20:44.306+0700 [conn5] end connection 127.0.0.1:41938 (15 connections now open)
+2017-08-24T19:20:48.105+0700 [clientcursormon] mem (MB) res:115 virt:946
+2017-08-24T19:20:48.105+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:20:48.105+0700 [clientcursormon]  connections:14
+2017-08-24T19:21:00.514+0700 [initandlisten] connection accepted from 127.0.0.1:42028 #19 (15 connections now open)
+2017-08-24T19:21:00.515+0700 [conn19]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:21:01.133+0700 [initandlisten] connection accepted from 127.0.0.1:42030 #20 (16 connections now open)
+2017-08-24T19:21:01.134+0700 [conn20]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:21:01.310+0700 [initandlisten] connection accepted from 127.0.0.1:42032 #21 (17 connections now open)
+2017-08-24T19:21:01.311+0700 [conn21]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:24:20.179+0700 [initandlisten] connection accepted from 127.0.0.1:42040 #22 (18 connections now open)
+2017-08-24T19:24:20.181+0700 [conn22]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:24:20.768+0700 [initandlisten] connection accepted from 127.0.0.1:42042 #23 (19 connections now open)
+2017-08-24T19:24:20.769+0700 [conn23]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:24:20.939+0700 [initandlisten] connection accepted from 127.0.0.1:42044 #24 (20 connections now open)
+2017-08-24T19:24:20.940+0700 [conn24]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:02.399+0700 [initandlisten] connection accepted from 127.0.0.1:42166 #25 (21 connections now open)
+2017-08-24T19:25:02.403+0700 [conn25]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:14.772+0700 [initandlisten] connection accepted from 127.0.0.1:42240 #26 (22 connections now open)
+2017-08-24T19:25:14.773+0700 [conn26]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:14.775+0700 [initandlisten] connection accepted from 127.0.0.1:42242 #27 (23 connections now open)
+2017-08-24T19:25:14.775+0700 [conn27]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:14.776+0700 [initandlisten] connection accepted from 127.0.0.1:42244 #28 (24 connections now open)
+2017-08-24T19:25:14.777+0700 [conn28]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:23.629+0700 [initandlisten] connection accepted from 127.0.0.1:42284 #29 (25 connections now open)
+2017-08-24T19:25:23.644+0700 [conn29]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:23.645+0700 [initandlisten] connection accepted from 127.0.0.1:42286 #30 (26 connections now open)
+2017-08-24T19:25:23.646+0700 [conn30]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:23.651+0700 [initandlisten] connection accepted from 127.0.0.1:42288 #31 (27 connections now open)
+2017-08-24T19:25:23.652+0700 [conn31]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:25:48.125+0700 [clientcursormon] mem (MB) res:115 virt:960
+2017-08-24T19:25:48.126+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:25:48.126+0700 [clientcursormon]  connections:27
+2017-08-24T19:26:31.344+0700 [initandlisten] connection accepted from 127.0.0.1:42476 #32 (28 connections now open)
+2017-08-24T19:26:31.355+0700 [conn32]  authenticate db: bitnami_edxapp { authenticate: 1, user: "bn_edx", nonce: "xxx", key: "xxx" }
+2017-08-24T19:27:09.607+0700 [conn3] end connection 127.0.0.1:41934 (27 connections now open)
+2017-08-24T19:27:09.608+0700 [initandlisten] connection accepted from 127.0.0.1:42546 #33 (28 connections now open)
+2017-08-24T19:27:09.609+0700 [conn33]  authenticate db: cs_comments_service { authenticate: 1, user: "bn_forum", nonce: "xxx", key: "xxx" }
+2017-08-24T19:30:48.143+0700 [clientcursormon] mem (MB) res:100 virt:961
+2017-08-24T19:30:48.143+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:30:48.143+0700 [clientcursormon]  connections:28
+2017-08-24T19:35:48.162+0700 [clientcursormon] mem (MB) res:100 virt:961
+2017-08-24T19:35:48.162+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:35:48.162+0700 [clientcursormon]  connections:28
+2017-08-24T19:40:48.178+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T19:40:48.178+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:40:48.178+0700 [clientcursormon]  connections:28
+2017-08-24T19:45:48.194+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T19:45:48.194+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:45:48.194+0700 [clientcursormon]  connections:28
+2017-08-24T19:50:48.211+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T19:50:48.211+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:50:48.211+0700 [clientcursormon]  connections:28
+2017-08-24T19:55:48.226+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T19:55:48.227+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T19:55:48.227+0700 [clientcursormon]  connections:28
+2017-08-24T20:00:48.244+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:00:48.244+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:00:48.244+0700 [clientcursormon]  connections:28
+2017-08-24T20:05:48.260+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:05:48.260+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:05:48.260+0700 [clientcursormon]  connections:28
+2017-08-24T20:10:48.277+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:10:48.277+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:10:48.277+0700 [clientcursormon]  connections:28
+2017-08-24T20:15:48.293+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:15:48.294+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:15:48.294+0700 [clientcursormon]  connections:28
+2017-08-24T20:20:48.309+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:20:48.309+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:20:48.309+0700 [clientcursormon]  connections:28
+2017-08-24T20:25:48.324+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:25:48.324+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:25:48.324+0700 [clientcursormon]  connections:28
+2017-08-24T20:30:48.341+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:30:48.341+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:30:48.341+0700 [clientcursormon]  connections:28
+2017-08-24T20:35:48.357+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:35:48.357+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:35:48.357+0700 [clientcursormon]  connections:28
+2017-08-24T20:40:48.374+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:40:48.374+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:40:48.374+0700 [clientcursormon]  connections:28
+2017-08-24T20:45:48.390+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:45:48.390+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:45:48.390+0700 [clientcursormon]  connections:28
+2017-08-24T20:50:48.407+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:50:48.407+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:50:48.407+0700 [clientcursormon]  connections:28
+2017-08-24T20:55:48.424+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T20:55:48.424+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T20:55:48.424+0700 [clientcursormon]  connections:28
+2017-08-24T21:00:48.441+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:00:48.441+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:00:48.441+0700 [clientcursormon]  connections:28
+2017-08-24T21:05:48.456+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:05:48.456+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:05:48.456+0700 [clientcursormon]  connections:28
+2017-08-24T21:10:48.472+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:10:48.472+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:10:48.473+0700 [clientcursormon]  connections:28
+2017-08-24T21:15:48.488+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:15:48.488+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:15:48.488+0700 [clientcursormon]  connections:28
+2017-08-24T21:20:48.503+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:20:48.503+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:20:48.503+0700 [clientcursormon]  connections:28
+2017-08-24T21:25:48.519+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:25:48.519+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:25:48.519+0700 [clientcursormon]  connections:28
+2017-08-24T21:30:48.536+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:30:48.536+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:30:48.536+0700 [clientcursormon]  connections:28
+2017-08-24T21:35:48.552+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:35:48.552+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:35:48.552+0700 [clientcursormon]  connections:28
+2017-08-24T21:40:48.567+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:40:48.567+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:40:48.567+0700 [clientcursormon]  connections:28
+2017-08-24T21:45:48.584+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:45:48.584+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:45:48.584+0700 [clientcursormon]  connections:28
+2017-08-24T21:50:48.600+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:50:48.600+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:50:48.601+0700 [clientcursormon]  connections:28
+2017-08-24T21:55:48.618+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T21:55:48.618+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T21:55:48.618+0700 [clientcursormon]  connections:28
+2017-08-24T22:00:48.635+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:00:48.636+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:00:48.636+0700 [clientcursormon]  connections:28
+2017-08-24T22:05:48.652+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:05:48.652+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:05:48.652+0700 [clientcursormon]  connections:28
+2017-08-24T22:10:48.667+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:10:48.667+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:10:48.667+0700 [clientcursormon]  connections:28
+2017-08-24T22:15:48.683+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:15:48.683+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:15:48.683+0700 [clientcursormon]  connections:28
+2017-08-24T22:20:48.699+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:20:48.699+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:20:48.699+0700 [clientcursormon]  connections:28
+2017-08-24T22:25:48.716+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:25:48.716+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:25:48.716+0700 [clientcursormon]  connections:28
+2017-08-24T22:30:48.733+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:30:48.733+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:30:48.733+0700 [clientcursormon]  connections:28
+2017-08-24T22:35:48.751+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:35:48.751+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:35:48.751+0700 [clientcursormon]  connections:28
+2017-08-24T22:40:48.767+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:40:48.767+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:40:48.767+0700 [clientcursormon]  connections:28
+2017-08-24T22:45:48.784+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:45:48.784+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:45:48.784+0700 [clientcursormon]  connections:28
+2017-08-24T22:50:48.800+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:50:48.800+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:50:48.800+0700 [clientcursormon]  connections:28
+2017-08-24T22:55:48.817+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T22:55:48.817+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T22:55:48.817+0700 [clientcursormon]  connections:28
+2017-08-24T23:00:48.835+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:00:48.835+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:00:48.835+0700 [clientcursormon]  connections:28
+2017-08-24T23:05:48.851+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:05:48.851+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:05:48.851+0700 [clientcursormon]  connections:28
+2017-08-24T23:10:48.868+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:10:48.868+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:10:48.868+0700 [clientcursormon]  connections:28
+2017-08-24T23:15:48.884+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:15:48.884+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:15:48.884+0700 [clientcursormon]  connections:28
+2017-08-24T23:20:48.901+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:20:48.901+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:20:48.901+0700 [clientcursormon]  connections:28
+2017-08-24T23:25:48.918+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:25:48.919+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:25:48.919+0700 [clientcursormon]  connections:28
+2017-08-24T23:30:48.936+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:30:48.936+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:30:48.936+0700 [clientcursormon]  connections:28
+2017-08-24T23:35:48.952+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:35:48.953+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:35:48.953+0700 [clientcursormon]  connections:28
+2017-08-24T23:40:48.969+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:40:48.969+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:40:48.969+0700 [clientcursormon]  connections:28
+2017-08-24T23:45:48.986+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:45:48.986+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:45:48.986+0700 [clientcursormon]  connections:28
+2017-08-24T23:50:49.003+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:50:49.004+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:50:49.004+0700 [clientcursormon]  connections:28
+2017-08-24T23:55:49.020+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-24T23:55:49.020+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-24T23:55:49.020+0700 [clientcursormon]  connections:28
+2017-08-25T00:00:49.035+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:00:49.035+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:00:49.035+0700 [clientcursormon]  connections:28
+2017-08-25T00:05:49.053+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:05:49.053+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:05:49.053+0700 [clientcursormon]  connections:28
+2017-08-25T00:10:49.069+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:10:49.069+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:10:49.069+0700 [clientcursormon]  connections:28
+2017-08-25T00:15:49.085+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:15:49.085+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:15:49.085+0700 [clientcursormon]  connections:28
+2017-08-25T00:20:49.102+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:20:49.102+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:20:49.102+0700 [clientcursormon]  connections:28
+2017-08-25T00:25:49.123+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:25:49.123+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:25:49.124+0700 [clientcursormon]  connections:28
+2017-08-25T00:30:49.139+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:30:49.139+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:30:49.139+0700 [clientcursormon]  connections:28
+2017-08-25T00:35:49.155+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:35:49.155+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:35:49.155+0700 [clientcursormon]  connections:28
+2017-08-25T00:40:49.171+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:40:49.171+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:40:49.171+0700 [clientcursormon]  connections:28
+2017-08-25T00:45:49.186+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:45:49.187+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:45:49.187+0700 [clientcursormon]  connections:28
+2017-08-25T00:50:49.202+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:50:49.203+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:50:49.203+0700 [clientcursormon]  connections:28
+2017-08-25T00:55:49.218+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T00:55:49.218+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T00:55:49.218+0700 [clientcursormon]  connections:28
+2017-08-25T01:00:49.234+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:00:49.234+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:00:49.234+0700 [clientcursormon]  connections:28
+2017-08-25T01:05:49.251+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:05:49.251+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:05:49.251+0700 [clientcursormon]  connections:28
+2017-08-25T01:10:49.267+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:10:49.267+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:10:49.267+0700 [clientcursormon]  connections:28
+2017-08-25T01:15:49.285+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:15:49.285+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:15:49.285+0700 [clientcursormon]  connections:28
+2017-08-25T01:20:49.302+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:20:49.302+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:20:49.302+0700 [clientcursormon]  connections:28
+2017-08-25T01:25:49.318+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:25:49.318+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:25:49.318+0700 [clientcursormon]  connections:28
+2017-08-25T01:30:49.335+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:30:49.335+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:30:49.335+0700 [clientcursormon]  connections:28
+2017-08-25T01:35:49.353+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:35:49.353+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:35:49.353+0700 [clientcursormon]  connections:28
+2017-08-25T01:40:49.369+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:40:49.369+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:40:49.369+0700 [clientcursormon]  connections:28
+2017-08-25T01:45:49.386+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:45:49.387+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:45:49.387+0700 [clientcursormon]  connections:28
+2017-08-25T01:50:49.403+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:50:49.403+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:50:49.403+0700 [clientcursormon]  connections:28
+2017-08-25T01:55:49.419+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T01:55:49.419+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T01:55:49.419+0700 [clientcursormon]  connections:28
+2017-08-25T02:00:49.436+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:00:49.436+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:00:49.436+0700 [clientcursormon]  connections:28
+2017-08-25T02:05:49.452+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:05:49.452+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:05:49.453+0700 [clientcursormon]  connections:28
+2017-08-25T02:10:49.468+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:10:49.468+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:10:49.468+0700 [clientcursormon]  connections:28
+2017-08-25T02:15:49.485+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:15:49.485+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:15:49.485+0700 [clientcursormon]  connections:28
+2017-08-25T02:20:49.502+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:20:49.502+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:20:49.502+0700 [clientcursormon]  connections:28
+2017-08-25T02:25:49.520+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:25:49.520+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:25:49.520+0700 [clientcursormon]  connections:28
+2017-08-25T02:30:49.536+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:30:49.536+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:30:49.536+0700 [clientcursormon]  connections:28
+2017-08-25T02:35:49.554+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:35:49.554+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:35:49.554+0700 [clientcursormon]  connections:28
+2017-08-25T02:40:49.571+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:40:49.571+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:40:49.571+0700 [clientcursormon]  connections:28
+2017-08-25T02:45:49.588+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:45:49.588+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:45:49.588+0700 [clientcursormon]  connections:28
+2017-08-25T02:50:49.605+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:50:49.605+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:50:49.605+0700 [clientcursormon]  connections:28
+2017-08-25T02:55:49.622+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T02:55:49.622+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T02:55:49.622+0700 [clientcursormon]  connections:28
+2017-08-25T03:00:49.641+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:00:49.641+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:00:49.641+0700 [clientcursormon]  connections:28
+2017-08-25T03:05:49.657+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:05:49.657+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:05:49.657+0700 [clientcursormon]  connections:28
+2017-08-25T03:10:49.674+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:10:49.674+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:10:49.674+0700 [clientcursormon]  connections:28
+2017-08-25T03:15:49.692+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:15:49.692+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:15:49.692+0700 [clientcursormon]  connections:28
+2017-08-25T03:20:49.708+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:20:49.708+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:20:49.708+0700 [clientcursormon]  connections:28
+2017-08-25T03:25:49.725+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:25:49.725+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:25:49.725+0700 [clientcursormon]  connections:28
+2017-08-25T03:30:49.742+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:30:49.742+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:30:49.742+0700 [clientcursormon]  connections:28
+2017-08-25T03:35:49.758+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:35:49.758+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:35:49.758+0700 [clientcursormon]  connections:28
+2017-08-25T03:40:49.776+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:40:49.776+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:40:49.776+0700 [clientcursormon]  connections:28
+2017-08-25T03:45:49.793+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:45:49.793+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:45:49.793+0700 [clientcursormon]  connections:28
+2017-08-25T03:50:49.811+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:50:49.811+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:50:49.811+0700 [clientcursormon]  connections:28
+2017-08-25T03:55:49.828+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T03:55:49.828+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T03:55:49.828+0700 [clientcursormon]  connections:28
+2017-08-25T04:00:49.844+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:00:49.844+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:00:49.844+0700 [clientcursormon]  connections:28
+2017-08-25T04:05:49.861+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:05:49.861+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:05:49.861+0700 [clientcursormon]  connections:28
+2017-08-25T04:10:49.877+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:10:49.877+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:10:49.877+0700 [clientcursormon]  connections:28
+2017-08-25T04:15:49.894+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:15:49.894+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:15:49.894+0700 [clientcursormon]  connections:28
+2017-08-25T04:20:49.911+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:20:49.911+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:20:49.911+0700 [clientcursormon]  connections:28
+2017-08-25T04:25:49.928+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:25:49.928+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:25:49.928+0700 [clientcursormon]  connections:28
+2017-08-25T04:30:49.944+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:30:49.944+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:30:49.944+0700 [clientcursormon]  connections:28
+2017-08-25T04:35:49.961+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:35:49.961+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:35:49.961+0700 [clientcursormon]  connections:28
+2017-08-25T04:40:49.978+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:40:49.978+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:40:49.978+0700 [clientcursormon]  connections:28
+2017-08-25T04:45:49.996+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:45:49.996+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:45:49.996+0700 [clientcursormon]  connections:28
+2017-08-25T04:50:50.012+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:50:50.012+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:50:50.012+0700 [clientcursormon]  connections:28
+2017-08-25T04:55:50.028+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T04:55:50.028+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T04:55:50.028+0700 [clientcursormon]  connections:28
+2017-08-25T05:00:50.044+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:00:50.044+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:00:50.044+0700 [clientcursormon]  connections:28
+2017-08-25T05:05:50.060+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:05:50.060+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:05:50.060+0700 [clientcursormon]  connections:28
+2017-08-25T05:10:50.075+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:10:50.075+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:10:50.075+0700 [clientcursormon]  connections:28
+2017-08-25T05:15:50.095+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:15:50.095+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:15:50.096+0700 [clientcursormon]  connections:28
+2017-08-25T05:20:50.113+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:20:50.113+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:20:50.113+0700 [clientcursormon]  connections:28
+2017-08-25T05:25:50.129+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:25:50.129+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:25:50.129+0700 [clientcursormon]  connections:28
+2017-08-25T05:30:50.144+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:30:50.144+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:30:50.144+0700 [clientcursormon]  connections:28
+2017-08-25T05:35:50.160+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:35:50.160+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:35:50.160+0700 [clientcursormon]  connections:28
+2017-08-25T05:40:50.176+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:40:50.176+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:40:50.176+0700 [clientcursormon]  connections:28
+2017-08-25T05:45:50.193+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:45:50.193+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:45:50.193+0700 [clientcursormon]  connections:28
+2017-08-25T05:50:50.209+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:50:50.209+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:50:50.209+0700 [clientcursormon]  connections:28
+2017-08-25T05:55:50.227+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T05:55:50.227+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T05:55:50.227+0700 [clientcursormon]  connections:28
+2017-08-25T06:00:50.244+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:00:50.244+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:00:50.244+0700 [clientcursormon]  connections:28
+2017-08-25T06:05:50.260+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:05:50.260+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:05:50.260+0700 [clientcursormon]  connections:28
+2017-08-25T06:10:50.277+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:10:50.278+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:10:50.278+0700 [clientcursormon]  connections:28
+2017-08-25T06:15:50.294+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:15:50.294+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:15:50.294+0700 [clientcursormon]  connections:28
+2017-08-25T06:20:50.311+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:20:50.311+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:20:50.311+0700 [clientcursormon]  connections:28
+2017-08-25T06:25:50.326+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:25:50.327+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:25:50.327+0700 [clientcursormon]  connections:28
+2017-08-25T06:30:50.343+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:30:50.343+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:30:50.343+0700 [clientcursormon]  connections:28
+2017-08-25T06:35:50.360+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:35:50.360+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:35:50.360+0700 [clientcursormon]  connections:28
+2017-08-25T06:40:50.376+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:40:50.376+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:40:50.376+0700 [clientcursormon]  connections:28
+2017-08-25T06:45:50.393+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:45:50.393+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:45:50.393+0700 [clientcursormon]  connections:28
+2017-08-25T06:50:50.410+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:50:50.410+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:50:50.410+0700 [clientcursormon]  connections:28
+2017-08-25T06:55:50.427+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T06:55:50.427+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T06:55:50.427+0700 [clientcursormon]  connections:28
+2017-08-25T07:00:50.444+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:00:50.444+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:00:50.444+0700 [clientcursormon]  connections:28
+2017-08-25T07:05:50.460+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:05:50.460+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:05:50.460+0700 [clientcursormon]  connections:28
+2017-08-25T07:10:50.476+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:10:50.476+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:10:50.476+0700 [clientcursormon]  connections:28
+2017-08-25T07:15:50.493+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:15:50.493+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:15:50.494+0700 [clientcursormon]  connections:28
+2017-08-25T07:20:50.513+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:20:50.513+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:20:50.513+0700 [clientcursormon]  connections:28
+2017-08-25T07:25:50.530+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:25:50.530+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:25:50.530+0700 [clientcursormon]  connections:28
+2017-08-25T07:30:50.553+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:30:50.553+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:30:50.553+0700 [clientcursormon]  connections:28
+2017-08-25T07:35:50.570+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:35:50.570+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:35:50.570+0700 [clientcursormon]  connections:28
+2017-08-25T07:40:50.588+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:40:50.588+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:40:50.588+0700 [clientcursormon]  connections:28
+2017-08-25T07:45:50.605+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:45:50.605+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:45:50.605+0700 [clientcursormon]  connections:28
+2017-08-25T07:50:50.622+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:50:50.622+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:50:50.622+0700 [clientcursormon]  connections:28
+2017-08-25T07:55:50.638+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T07:55:50.639+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T07:55:50.639+0700 [clientcursormon]  connections:28
+2017-08-25T08:00:50.655+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:00:50.655+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:00:50.655+0700 [clientcursormon]  connections:28
+2017-08-25T08:05:50.671+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:05:50.672+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:05:50.672+0700 [clientcursormon]  connections:28
+2017-08-25T08:10:50.689+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:10:50.689+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:10:50.689+0700 [clientcursormon]  connections:28
+2017-08-25T08:15:50.705+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:15:50.706+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:15:50.706+0700 [clientcursormon]  connections:28
+2017-08-25T08:20:50.722+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:20:50.722+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:20:50.722+0700 [clientcursormon]  connections:28
+2017-08-25T08:25:50.740+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:25:50.740+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:25:50.740+0700 [clientcursormon]  connections:28
+2017-08-25T08:30:50.756+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:30:50.756+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:30:50.756+0700 [clientcursormon]  connections:28
+2017-08-25T08:35:50.772+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:35:50.773+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:35:50.773+0700 [clientcursormon]  connections:28
+2017-08-25T08:40:50.789+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:40:50.789+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:40:50.789+0700 [clientcursormon]  connections:28
+2017-08-25T08:45:50.805+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:45:50.805+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:45:50.805+0700 [clientcursormon]  connections:28
+2017-08-25T08:50:50.823+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:50:50.823+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:50:50.823+0700 [clientcursormon]  connections:28
+2017-08-25T08:55:50.839+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T08:55:50.839+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T08:55:50.839+0700 [clientcursormon]  connections:28
+2017-08-25T09:00:50.856+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:00:50.856+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:00:50.856+0700 [clientcursormon]  connections:28
+2017-08-25T09:05:50.873+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:05:50.873+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:05:50.873+0700 [clientcursormon]  connections:28
+2017-08-25T09:10:50.889+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:10:50.889+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:10:50.889+0700 [clientcursormon]  connections:28
+2017-08-25T09:15:50.907+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:15:50.907+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:15:50.907+0700 [clientcursormon]  connections:28
+2017-08-25T09:20:50.924+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:20:50.924+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:20:50.924+0700 [clientcursormon]  connections:28
+2017-08-25T09:25:50.941+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:25:50.941+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:25:50.941+0700 [clientcursormon]  connections:28
+2017-08-25T09:30:50.967+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:30:50.967+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:30:50.967+0700 [clientcursormon]  connections:28
+2017-08-25T09:35:50.984+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:35:50.984+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:35:50.984+0700 [clientcursormon]  connections:28
+2017-08-25T09:40:51.001+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:40:51.001+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:40:51.001+0700 [clientcursormon]  connections:28
+2017-08-25T09:45:51.016+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:45:51.016+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:45:51.016+0700 [clientcursormon]  connections:28
+2017-08-25T09:50:51.032+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:50:51.032+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:50:51.032+0700 [clientcursormon]  connections:28
+2017-08-25T09:55:51.049+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T09:55:51.049+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T09:55:51.049+0700 [clientcursormon]  connections:28
+2017-08-25T10:00:51.066+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:00:51.066+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:00:51.066+0700 [clientcursormon]  connections:28
+2017-08-25T10:05:51.082+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:05:51.082+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:05:51.082+0700 [clientcursormon]  connections:28
+2017-08-25T10:10:51.100+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:10:51.100+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:10:51.100+0700 [clientcursormon]  connections:28
+2017-08-25T10:15:51.161+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:15:51.161+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:15:51.161+0700 [clientcursormon]  connections:28
+2017-08-25T10:20:51.177+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:20:51.177+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:20:51.177+0700 [clientcursormon]  connections:28
+2017-08-25T10:25:51.194+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:25:51.194+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:25:51.194+0700 [clientcursormon]  connections:28
+2017-08-25T10:30:51.210+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:30:51.210+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:30:51.210+0700 [clientcursormon]  connections:28
+2017-08-25T10:35:51.226+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:35:51.226+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:35:51.226+0700 [clientcursormon]  connections:28
+2017-08-25T10:40:51.243+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:40:51.243+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:40:51.243+0700 [clientcursormon]  connections:28
+2017-08-25T10:45:51.260+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:45:51.260+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:45:51.260+0700 [clientcursormon]  connections:28
+2017-08-25T10:50:51.276+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:50:51.276+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:50:51.276+0700 [clientcursormon]  connections:28
+2017-08-25T10:55:51.295+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T10:55:51.295+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T10:55:51.295+0700 [clientcursormon]  connections:28
+2017-08-25T11:00:51.311+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:00:51.311+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:00:51.311+0700 [clientcursormon]  connections:28
+2017-08-25T11:05:51.327+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:05:51.327+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:05:51.327+0700 [clientcursormon]  connections:28
+2017-08-25T11:10:51.344+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:10:51.344+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:10:51.344+0700 [clientcursormon]  connections:28
+2017-08-25T11:15:51.361+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:15:51.361+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:15:51.361+0700 [clientcursormon]  connections:28
+2017-08-25T11:20:51.377+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:20:51.377+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:20:51.377+0700 [clientcursormon]  connections:28
+2017-08-25T11:25:51.394+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:25:51.394+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:25:51.394+0700 [clientcursormon]  connections:28
+2017-08-25T11:30:51.411+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:30:51.411+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:30:51.411+0700 [clientcursormon]  connections:28
+2017-08-25T11:35:51.429+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:35:51.429+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:35:51.429+0700 [clientcursormon]  connections:28
+2017-08-25T11:40:51.449+0700 [clientcursormon] mem (MB) res:102 virt:961
+2017-08-25T11:40:51.449+0700 [clientcursormon]  mapped (incl journal view):736
+2017-08-25T11:40:51.449+0700 [clientcursormon]  connections:28

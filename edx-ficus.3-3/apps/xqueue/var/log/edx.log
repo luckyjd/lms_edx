@@ -1,0 +1,9 @@
+2017-08-24 07:53:52,162 INFO 14448 [queue.management.commands.update_users] update_users.py:24 - root is : /opt/lms_edx/edx-ficus.3-3/apps/xqueue
+2017-08-24 07:53:52,162 INFO 14448 [queue.management.commands.update_users] update_users.py:28 -  [*] reading /opt/lms_edx/edx-ficus.3-3/apps/xqueue/conf/xqueue.auth.json
+2017-08-24 07:53:52,163 INFO 14448 [queue.management.commands.update_users] update_users.py:34 -  [*] Creating/updating user lms
+2017-08-24 07:53:52,166 INFO 14448 [queue.management.commands.update_users] update_users.py:40 -      ... lms does not exist. Creating
+2017-08-24 07:53:52,198 INFO 14448 [queue.management.commands.update_users] update_users.py:47 -  [*] All done!
+2017-08-24 08:20:10,524 INFO 17626 [queue.management.commands.run_consumer] run_consumer.py:73 -  [*] Starting queue workers...
+2017-08-24 08:20:10,525 INFO 17626 [queue.management.commands.run_consumer] run_consumer.py:86 -  [0] Starting worker
+2017-08-24 08:20:10,542 INFO 17656 [queue.consumer] consumer.py:281 -  [0] Starting consumer for queue edX-Open_DemoX
+2017-08-24 08:20:10,542 INFO 17656 [queue.consumer] consumer.py:288 - [0] - Attempting to establish a connection for queue edX-Open_DemoX

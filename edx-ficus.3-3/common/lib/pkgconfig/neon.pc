@@ -1,0 +1,11 @@
+prefix=/opt/lms_edx/edx-ficus.3-3/common
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: neon
+Description: HTTP/WebDAV client library
+Version: 0.30.1
+Libs: -L${libdir} -lneon 
+Libs.private:  -lz -L/opt/lms_edx/edx-ficus.3-3/common/lib -lssl -lcrypto  -lexpat
+Cflags: -I${includedir}/neon 

@@ -1,0 +1,13 @@
+SERF_MAJOR_VERSION=1
+prefix=/opt/lms_edx/edx-ficus.3-3/common/lib
+exec_prefix=${prefix}
+libdir=/opt/lms_edx/edx-ficus.3-3/common/lib/lib
+includedir=${prefix}/include/serf-1
+
+Name: serf
+Description: HTTP client library
+Version: 1.3.8
+Requires.private: libssl libcrypto
+Libs: -L${libdir} -lserf-${SERF_MAJOR_VERSION}
+Libs.private: /opt/lms_edx/edx-ficus.3-3/common/lib/libaprutil-1.la -lldap -llber    -lexpat -liconv /opt/lms_edx/edx-ficus.3-3/common/lib/libapr-1.la -lrt -lcrypt  -lpthread  -lz
+Cflags: -I${includedir}

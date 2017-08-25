@@ -1,0 +1,7 @@
+#!/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/bin/python
+
+import warnings
+warnings.simplefilter('default', DeprecationWarning)
+
+from logilab.common.pytest import run
+run()

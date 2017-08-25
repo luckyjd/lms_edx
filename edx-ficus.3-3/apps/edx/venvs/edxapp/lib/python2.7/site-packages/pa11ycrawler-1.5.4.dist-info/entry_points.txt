@@ -1,0 +1,3 @@
+[console_scripts]
+pa11ycrawler-html = pa11ycrawler.html:main
+

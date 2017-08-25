@@ -1,0 +1,15 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-9877-12981f5.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/bin/install -c -m 0755 debug_inspector.so ./.gem.20170811-9877-vohn5f

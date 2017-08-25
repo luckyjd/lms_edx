@@ -1,0 +1,3 @@
+#!/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/bin/python
+from fs.commands.fscat import run
+run()

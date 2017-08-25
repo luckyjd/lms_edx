@@ -1,0 +1,105 @@
+.xblock-student_view.xblock-student_view-lti_consumer {
+    h2.problem-header {
+        display: inline-block;
+    }
+
+    div.problem-progress {
+        display: inline-block;
+        padding-left: 5px;
+        color: #666;
+        font-weight: 100;
+        font-size: 1em;
+    }
+
+    div.lti_consumer {
+        margin: 0 auto;
+
+        .wrapper-lti-link {
+            font-size: 14px;
+            background-color: #f6f6f6;
+            padding: 20px;
+
+            .lti-link {
+                margin-bottom: 0;
+                margin-top: 20px;
+                text-align: left;
+
+                button {
+                    font-size: 13px;
+                    line-height: 20.72px;
+                }
+            }
+        }
+
+        .lti-modal {
+            position: fixed;
+            opacity: 0;
+            z-index: 11000;
+            box-sizing: border-box;
+            margin-left: 0;
+            height: auto;
+            padding: 8px;
+            border-radius: 3px;
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+            background: #464646;
+            color: #3c3c3c;
+
+            .close-modal {
+                display: inline-block;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                z-index: 100;
+                cursor: pointer;
+                padding: 10px;
+                background-color: #fff !important;
+                border: none;
+                text-align: center;
+
+                .fa {
+                    font: normal normal normal 14px/1 FontAwesome;
+                    font-size: inherit;
+                }
+            }
+
+            .inner-wrapper {
+                height: 100%;
+                padding: 0 0 0 0;
+            }
+        }
+
+        form.ltiLaunchForm {
+            display: none;
+        }
+
+        iframe.ltiLaunchFrame {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border: 0px;
+        }
+
+        h4.problem-feedback-label {
+            font-weight: 100;
+            font-size: 1em;
+            font-family: "Source Sans", "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
+        }
+
+        div.problem-feedback {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.lean-overlay {
+    background: transparent;
+    background-image: radial-gradient(circle at 50% 30%, rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}

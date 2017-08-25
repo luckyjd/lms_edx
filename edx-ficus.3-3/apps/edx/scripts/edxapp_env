@@ -1,0 +1,11 @@
+#!/bin/sh
+. /opt/lms_edx/edx-ficus.3-3/scripts/setenv.sh
+. /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/bin/activate
+export SKIP_WS_MIGRATIONS=1
+export NO_PREREQ_INSTALL=1
+export CONFIG_ROOT=/opt/lms_edx/edx-ficus.3-3/apps/edx/conf
+export EDX_PLATFORM_SETTINGS=aws
+# AWS settings file is used, but not with AWS integration
+export BOTO_CONFIG=""
+# Celery workers require some additional Python modules
+export PYTHONPATH=$PYTHONPATH:/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/cms/djangoapps

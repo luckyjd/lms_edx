@@ -1,0 +1,2 @@
+--with-icu-dir=/bitnami/megastack-linux-x64/output/common
+--with-icu-lib=/bitnami/megastack-linux-x64/output/common/lib

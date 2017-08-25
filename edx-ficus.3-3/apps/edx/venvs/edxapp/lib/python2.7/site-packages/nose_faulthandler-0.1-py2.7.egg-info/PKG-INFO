@@ -1,0 +1,53 @@
+Metadata-Version: 1.1
+Name: nose-faulthandler
+Version: 0.1
+Summary: Nose plugin. Activates faulthandler module for test runs.
+Home-page: https://github.com/schlamar/nose-faulthandler
+Author: Marc Schlaich
+Author-email: marc.schlaich@gmail.com
+License: MIT
+Description: Nose faulthandler
+        =================
+        
+        This is a plugin for nose. This plugin is enabled by default. It activates
+        the `faulthandler` module before running tests.
+        
+        
+        Installation
+        ------------
+        
+        You can install or upgrade ``nose-faulthandler`` with these commands::
+        
+          $ pip install nose-faulthandler
+          $ pip install --upgrade nose-faulthandler
+        
+        
+        
+        Usage
+        -----
+        
+        This plugin is enabled by default. You can deactivate it with::
+        
+            $ nosetests --no-faulthandler
+            ...
+        
+        
+        Changes
+        -------
+        
+        
+        0.1 - 2013-06-10
+        ````````````````
+        * First release
+        
+Keywords: nose testing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

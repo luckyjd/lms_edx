@@ -1,0 +1,33 @@
+#!/bin/sh
+
+. /opt/lms_edx/edx-ficus.3-3/scripts/setenv.sh
+
+SCRIPT_NAME="`echo $@ | awk -F\" \" '{print $1}' | xargs basename --`"
+SCRIPT_FIRST_PARAMETER="`echo $@ | awk -F\" \" '{print $2}'`"
+SCRIPT_SECOND_PARAMETER="`echo $@ | awk -F\" \" '{print $3}'`"
+
+if [ "$SCRIPT_NAME" = "gem" ]; then
+   if [ "$SCRIPT_FIRST_PARAMETER" = "install" \
+     -o "$SCRIPT_FIRST_PARAMETER" = "update"  ] ; then
+       GEM_PARAMETERS="-E"
+       if [ "$SCRIPT_SECOND_PARAMETER" = "--system" ] ; then
+           UPGRADING_RUBYGEMS=1
+           export UPGRADING_RUBYGEMS
+       fi
+   fi
+fi
+
+if [ "$SCRIPT_NAME" = "update_rubygems" ]; then
+    UPGRADING_RUBYGEMS=1
+    export UPGRADING_RUBYGEMS
+fi
+
+if [ "$UPGRADING_RUBYGEMS" = "1" ]; then
+    unset RUBYOPT
+    /opt/lms_edx/edx-ficus.3-3/ruby/bin/.ruby.bin  "$@" $GEM_PARAMETERS
+
+    GEM_BIN=/opt/lms_edx/edx-ficus.3-3/ruby/bin/gem
+    echo "`echo \#\!\"/usr/bin/env $(which ruby)\" && cat $GEM_BIN | grep -v \#\!`" > $GEM_BIN
+else
+    exec /opt/lms_edx/edx-ficus.3-3/ruby/bin/.ruby.bin  "$@" $GEM_PARAMETERS
+fi

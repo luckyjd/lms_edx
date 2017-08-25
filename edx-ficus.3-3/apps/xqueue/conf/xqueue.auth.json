@@ -1,0 +1,20 @@
+{
+    "AWS_ACCESS_KEY_ID": "",
+    "AWS_SECRET_ACCESS_KEY": "",
+    "DATABASES": {
+        "default": {
+            "ENGINE": "django.db.backends.mysql",
+            "HOST": "/opt/lms_edx/edx-ficus.3-3/mysql/tmp/mysql.sock",
+            "PORT": "",
+            "NAME": "bitnami_xqueue",
+            "USER": "bn_xqueue",
+            "PASSWORD": "878aad6e2c"
+        }
+    },
+    "RABBITMQ_USER": "bn_xqueue",
+    "RABBITMQ_PASS": "878aad6e2c",
+    "REQUESTS_BASIC_AUTH": ["edx", "edx"],
+    "USERS": {
+        "lms": "49f7ecfa78"
+    }
+}

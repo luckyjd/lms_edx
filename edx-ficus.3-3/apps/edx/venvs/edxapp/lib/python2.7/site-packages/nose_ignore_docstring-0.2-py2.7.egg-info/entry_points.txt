@@ -1,0 +1,3 @@
+[nose.plugins]
+nose_ignoredoc = nose_ignoredoc:IgnoreDocstrings
+

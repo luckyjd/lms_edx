@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: mock-django
+Version: 0.6.9
+Summary: UNKNOWN
+Home-page: http://github.com/dcramer/mock-django
+Author: David Cramer
+Author-email: dcramer@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: Django (>=1.4)
+Requires-Dist: mock
+
+UNKNOWN
+
+

@@ -1,0 +1,4 @@
+#!/bin/sh
+. /opt/lms_edx/edx-ficus.3-3/apps/xqueue/scripts/xqueue_env
+cd /opt/lms_edx/edx-ficus.3-3/apps/xqueue/xqueue
+python $@

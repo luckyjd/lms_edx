@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-fPIC -I/opt/lms_edx/edx-ficus.3-3/common/include -fPIC -I/opt/lms_edx/edx-ficus.3-3/common/include -I/opt/lms_edx/edx-ficus.3-3/common/include -fPIC -m64 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/"; export CFLAGS
+CPPFLAGS="-I/opt/lms_edx/edx-ficus.3-3/common/include"; export CPPFLAGS
+LDFLAGS="-L/opt/lms_edx/edx-ficus.3-3/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/opt/lms_edx/edx-ficus.3-3/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/opt/lms_edx/edx-ficus.3-3/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--with-apr=/opt/lms_edx/edx-ficus.3-3/common/bin/apr-1-config" \
+"--with-apu=/opt/lms_edx/edx-ficus.3-3/common/bin/apr-1-config" \
+"--with-pcre=/opt/lms_edx/edx-ficus.3-3/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/opt/lms_edx/edx-ficus.3-3/common/lib" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-fPIC -I/opt/lms_edx/edx-ficus.3-3/common/include -fPIC -I/opt/lms_edx/edx-ficus.3-3/common/include -I/opt/lms_edx/edx-ficus.3-3/common/include -fPIC -m64 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/" \
+"LDFLAGS=-L/opt/lms_edx/edx-ficus.3-3/common/lib -liconv" \
+"CPPFLAGS=-I/opt/lms_edx/edx-ficus.3-3/common/include" \
+"$@"

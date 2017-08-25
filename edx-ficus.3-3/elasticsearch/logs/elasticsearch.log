@@ -1,0 +1,11 @@
+[2017-08-24 18:52:12,699][INFO ][node                     ] [Turbo] version[0.90.11], pid[13543], build[11da1ba/2014-02-03T15:27:39Z]
+[2017-08-24 18:52:12,699][INFO ][node                     ] [Turbo] initializing ...
+[2017-08-24 18:52:12,706][INFO ][plugins                  ] [Turbo] loaded [], sites [bigdesk]
+[2017-08-24 18:52:14,828][INFO ][node                     ] [Turbo] initialized
+[2017-08-24 18:52:14,828][INFO ][node                     ] [Turbo] starting ...
+[2017-08-24 18:52:14,917][INFO ][transport                ] [Turbo] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2017-08-24 18:52:17,958][INFO ][cluster.service          ] [Turbo] new_master [Turbo][igfIMQZWS5SPwhiR--h0bw][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2017-08-24 18:52:18,073][INFO ][discovery                ] [Turbo] elasticsearch/igfIMQZWS5SPwhiR--h0bw
+[2017-08-24 18:52:18,149][INFO ][http                     ] [Turbo] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2017-08-24 18:52:18,149][INFO ][node                     ] [Turbo] started
+[2017-08-24 18:52:18,155][INFO ][gateway                  ] [Turbo] recovered [0] indices into cluster_state

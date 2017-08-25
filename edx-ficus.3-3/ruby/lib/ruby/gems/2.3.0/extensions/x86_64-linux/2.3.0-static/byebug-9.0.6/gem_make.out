@@ -1,0 +1,19 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/byebug-9.0.6/ext/byebug
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-9877-1ylq7mx.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling byebug.c
+compiling threads.c
+compiling breakpoint.c
+compiling context.c
+linking shared-object byebug/byebug.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/bin/install -c -m 0755 byebug.so ./.gem.20170811-9877-2ckhyp/byebug

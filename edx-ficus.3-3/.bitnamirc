@@ -1,0 +1,16 @@
+
+PATH="/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/node_modules/.bin:/opt/lms_edx/edx-ficus.3-3/apps/edx/bin:/opt/lms_edx/edx-ficus.3-3/postgresql/bin:/opt/lms_edx/edx-ficus.3-3/git/bin:/opt/lms_edx/edx-ficus.3-3/perl/bin:/opt/lms_edx/edx-ficus.3-3/nodejs/bin:/opt/lms_edx/edx-ficus.3-3/java/bin:/opt/lms_edx/edx-ficus.3-3/erlang/bin:/opt/lms_edx/edx-ficus.3-3/ruby/bin:/opt/lms_edx/edx-ficus.3-3/python/bin:/opt/lms_edx/edx-ficus.3-3/elasticsearch/bin:/opt/lms_edx/edx-ficus.3-3/memcached/bin:/opt/lms_edx/edx-ficus.3-3/mongodb/bin:/opt/lms_edx/edx-ficus.3-3/sqlite/bin:/opt/lms_edx/edx-ficus.3-3/mysql/bin:/opt/lms_edx/edx-ficus.3-3/apache2/bin:/opt/lms_edx/edx-ficus.3-3/common/bin:$PATH"
+BITNAMI_ROOT="/opt/lms_edx/edx-ficus.3-3"
+export BITNAMI_ROOT
+
+
+if [ -s "/opt/lms_edx/edx-ficus.3-3/python/bin/virtualenvwrapper.sh" ]; then  
+   export WORKON_HOME="/opt/lms_edx/edx-ficus.3-3/python/.virtualenvs"
+   source "/opt/lms_edx/edx-ficus.3-3/python/bin/virtualenvwrapper.sh" 
+fi
+
+
+if [ "$BASH" != "" -a -s "/opt/lms_edx/edx-ficus.3-3/git/scripts/git-completion.bash" ]; then
+    . "/opt/lms_edx/edx-ficus.3-3/git/scripts/git-completion.bash"
+fi
+GIT_PS1_SHOWDIRTYSTATE=true

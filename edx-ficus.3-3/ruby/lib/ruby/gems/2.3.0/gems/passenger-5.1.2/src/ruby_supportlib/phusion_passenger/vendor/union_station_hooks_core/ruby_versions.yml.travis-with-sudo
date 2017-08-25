@@ -1,0 +1,18 @@
+# This configuration file tells the test suite which Ruby interpreters to
+# test against. Below is an example utilizing RVM.
+#
+# N.B. this is the environment used as part of the Passenger module tests
+# (as opposed to the environment used for the Submodule tests)
+#
+# If you want test coverage reporting via simplecov to work, then this list
+# must contain the main Ruby interpreter that you are using, and the entry
+# for that Ruby interpreter must execute Ruby through 'bundle exec'. In the
+# example below, this is the case for Ruby 1.9.3.
+
+# these are still supported so we pin to the travis version and re-pin whenever they do
+- name: Ruby 1.9.3-p551
+  command: rvm-exec ruby-1.9.3-p551 bundle exec ruby
+- name: Ruby 2.1.10
+  command: rvm-exec ruby-2.1.10 ruby
+- name: Ruby 2.2.5
+  command: rvm-exec ruby-2.2.5 ruby

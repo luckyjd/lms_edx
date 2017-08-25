@@ -1,0 +1,324 @@
+
+=INFO REPORT==== 24-Aug-2017::18:52:27 ===
+Starting RabbitMQ 3.6.10 on Erlang 18.0
+Copyright (C) 2007-2017 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 24-Aug-2017::18:52:27 ===
+node           : rabbitmq@localhost
+home dir       : /opt/lms_edx/edx-ficus.3-3/rabbitmq/rabbitmq_home
+config file(s) : /opt/lms_edx/edx-ficus.3-3/rabbitmq/etc/rabbitmq/rabbitmq.config
+cookie hash    : PLbAe5WNiY1EGN667Pg3gA==
+log            : /opt/lms_edx/edx-ficus.3-3/rabbitmq/var/log/rabbitmq/rabbitmq@localhost.log
+sasl log       : /opt/lms_edx/edx-ficus.3-3/rabbitmq/var/log/rabbitmq/rabbitmq@localhost-sasl.log
+database dir   : /opt/lms_edx/edx-ficus.3-3/rabbitmq/var/lib/rabbitmq/mnesia/rabbitmq@localhost
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Memory limit set to 3148MB of 7871MB total.
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Enabling free disk space monitoring
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Limiting to approx 924 file handles (829 sockets)
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Database directory at /opt/lms_edx/edx-ficus.3-3/rabbitmq/var/lib/rabbitmq/mnesia/rabbitmq@localhost is empty. Initialising from scratch...
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Starting rabbit_node_monitor
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 24-Aug-2017::18:52:32 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Adding vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Creating user 'user'
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Setting user tags for user 'user' to [administrator]
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Setting permissions for 'user' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Statistics database started.
+
+=INFO REPORT==== 24-Aug-2017::18:52:32 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_management_agent
+ * rabbitmq_web_dispatch
+ * amqp_client
+ * cowboy
+ * cowlib
+
+=INFO REPORT==== 24-Aug-2017::18:53:35 ===
+Creating user 'bn_xqueue'
+
+=INFO REPORT==== 24-Aug-2017::18:53:38 ===
+Setting user tags for user 'bn_xqueue' to [administrator]
+
+=INFO REPORT==== 24-Aug-2017::18:53:41 ===
+Setting permissions for 'bn_xqueue' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 24-Aug-2017::18:54:54 ===
+Creating user 'bn_edx'
+
+=INFO REPORT==== 24-Aug-2017::18:54:57 ===
+Setting user tags for user 'bn_edx' to [administrator]
+
+=INFO REPORT==== 24-Aug-2017::18:54:59 ===
+Setting permissions for 'bn_edx' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 24-Aug-2017::19:20:10 ===
+accepting AMQP connection <0.766.0> (127.0.0.1:54346 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:10 ===
+connection <0.766.0> (127.0.0.1:54346 -> 127.0.0.1:5672): user 'bn_xqueue' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+accepting AMQP connection <0.782.0> (127.0.0.1:54348 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+accepting AMQP connection <0.785.0> (127.0.0.1:54350 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+connection <0.785.0> (127.0.0.1:54350 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+connection <0.782.0> (127.0.0.1:54348 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+accepting AMQP connection <0.796.0> (127.0.0.1:54352 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+connection <0.796.0> (127.0.0.1:54352 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+accepting AMQP connection <0.803.0> (127.0.0.1:54354 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:14 ===
+connection <0.803.0> (127.0.0.1:54354 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.841.0> (127.0.0.1:54356 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.844.0> (127.0.0.1:54358 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.841.0> (127.0.0.1:54356 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.844.0> (127.0.0.1:54358 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.855.0> (127.0.0.1:54362 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.858.0> (127.0.0.1:54360 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.855.0> (127.0.0.1:54362 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.858.0> (127.0.0.1:54360 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.897.0> (127.0.0.1:54364 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.897.0> (127.0.0.1:54364 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.904.0> (127.0.0.1:54366 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.904.0> (127.0.0.1:54366 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.926.0> (127.0.0.1:54368 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.926.0> (127.0.0.1:54368 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.933.0> (127.0.0.1:54370 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+accepting AMQP connection <0.936.0> (127.0.0.1:54372 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.933.0> (127.0.0.1:54370 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:15 ===
+connection <0.936.0> (127.0.0.1:54372 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:16 ===
+accepting AMQP connection <0.951.0> (127.0.0.1:54374 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:16 ===
+connection <0.951.0> (127.0.0.1:54374 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:29 ===
+accepting AMQP connection <0.1158.0> (127.0.0.1:54404 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+connection <0.1158.0> (127.0.0.1:54404 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+closing AMQP connection <0.1158.0> (127.0.0.1:54404 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+accepting AMQP connection <0.1171.0> (127.0.0.1:54406 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+connection <0.1171.0> (127.0.0.1:54406 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+closing AMQP connection <0.1171.0> (127.0.0.1:54406 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+accepting AMQP connection <0.1183.0> (127.0.0.1:54410 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+connection <0.1183.0> (127.0.0.1:54410 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+closing AMQP connection <0.1183.0> (127.0.0.1:54410 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+accepting AMQP connection <0.1195.0> (127.0.0.1:54414 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+connection <0.1195.0> (127.0.0.1:54414 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:30 ===
+closing AMQP connection <0.1195.0> (127.0.0.1:54414 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+accepting AMQP connection <0.1208.0> (127.0.0.1:54444 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+connection <0.1208.0> (127.0.0.1:54444 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+closing AMQP connection <0.1208.0> (127.0.0.1:54444 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+accepting AMQP connection <0.1220.0> (127.0.0.1:54448 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+connection <0.1220.0> (127.0.0.1:54448 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+closing AMQP connection <0.1220.0> (127.0.0.1:54448 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+accepting AMQP connection <0.1232.0> (127.0.0.1:54452 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+connection <0.1232.0> (127.0.0.1:54452 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+closing AMQP connection <0.1232.0> (127.0.0.1:54452 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+accepting AMQP connection <0.1244.0> (127.0.0.1:54454 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+connection <0.1244.0> (127.0.0.1:54454 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:41 ===
+closing AMQP connection <0.1244.0> (127.0.0.1:54454 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+accepting AMQP connection <0.1256.0> (127.0.0.1:54468 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+connection <0.1256.0> (127.0.0.1:54468 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+closing AMQP connection <0.1256.0> (127.0.0.1:54468 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+accepting AMQP connection <0.1268.0> (127.0.0.1:54472 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+connection <0.1268.0> (127.0.0.1:54472 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+closing AMQP connection <0.1268.0> (127.0.0.1:54472 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+accepting AMQP connection <0.1280.0> (127.0.0.1:54474 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+connection <0.1280.0> (127.0.0.1:54474 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+closing AMQP connection <0.1280.0> (127.0.0.1:54474 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+accepting AMQP connection <0.1292.0> (127.0.0.1:54476 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+connection <0.1292.0> (127.0.0.1:54476 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:20:43 ===
+closing AMQP connection <0.1292.0> (127.0.0.1:54476 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:25:52 ===
+accepting AMQP connection <0.1351.0> (127.0.0.1:54864 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:25:52 ===
+connection <0.1351.0> (127.0.0.1:54864 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:25:52 ===
+closing AMQP connection <0.1351.0> (127.0.0.1:54864 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')
+
+=INFO REPORT==== 24-Aug-2017::19:27:09 ===
+accepting AMQP connection <0.1372.0> (127.0.0.1:55002 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 24-Aug-2017::19:27:09 ===
+connection <0.1372.0> (127.0.0.1:55002 -> 127.0.0.1:5672): user 'bn_edx' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 24-Aug-2017::19:27:09 ===
+closing AMQP connection <0.1372.0> (127.0.0.1:55002 -> 127.0.0.1:5672, vhost: '/', user: 'bn_edx')

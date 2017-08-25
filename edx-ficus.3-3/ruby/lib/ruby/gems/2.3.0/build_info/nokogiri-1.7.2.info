@@ -1,0 +1,6 @@
+--with-xml2-dir=/bitnami/megastack-linux-x64/output/common
+--with-xslt-dir=/bitnami/megastack-linux-x64/output/common
+--with-xml2-include=/bitnami/megastack-linux-x64/output/common/include/libxml2
+--with-xslt-include=/bitnami/megastack-linux-x64/output/common/include
+--with-xml2-lib=/bitnami/megastack-linux-x64/output/common/lib
+--with-xslt-lib=/bitnami/megastack-linux-x64/output/common/lib

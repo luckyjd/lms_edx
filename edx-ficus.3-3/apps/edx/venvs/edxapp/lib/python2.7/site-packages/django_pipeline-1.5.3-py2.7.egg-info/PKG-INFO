@@ -1,0 +1,75 @@
+Metadata-Version: 1.1
+Name: django-pipeline
+Version: 1.5.3
+Summary: Pipeline is an asset packaging library for Django.
+Home-page: https://github.com/cyberdelia/django-pipeline
+Author: Timothée Peignier
+Author-email: timothee.peignier@tryphon.org
+License: MIT
+Description: Pipeline
+        ========
+        
+        Pipeline is an asset packaging library for Django, providing both CSS and
+        JavaScript concatenation and compression, built-in JavaScript template support,
+        and optional data-URI image and font embedding.
+        
+        Installation
+        ------------
+        
+        To install it, simply: ::
+        
+            pip install django-pipeline
+        
+        
+        Documentation
+        -------------
+        
+        For documentation, usage, and examples, see :
+        http://django-pipeline.readthedocs.org
+        
+        
+        .. :changelog:
+        
+        History
+        =======
+        
+        1.5.3
+        =====
+        
+        * Fix futures import. Thanks to Mathieu Gallet.
+        * Make GZIPMixin returns the gziped file.
+        * Fix import shadowing. Thanks to Christofer Bertonha.
+        * Fix tests settings for Django 1.9. Thanks to Leonardo Orozco.
+        * Improve javascript concatenation. Thanks to Simon Lydell and Alex Gavrișco.
+        * Improve finder logic. Thanks to Nathan Shafer and James Keys.
+        * Documentation fix. Thanks to Stefano Brentegani.
+        
+        1.5.2
+        =====
+        
+        * Use smart_bytes and smart_text appropriately. Thanks to Tadas Dailyda.
+        * Fix outdated logic. Thanks to Tadas Dailyda.
+        
+        1.5.1
+        =====
+        
+        * Prevent collecting all static multiple times per request. Thanks to Allard Stijnman.
+        * Fix encoding issues. Thanks to Leonardo Orozco.
+        * Improve Django 1.8. Thanks to Carl Meyer.
+        
+        1.5.0
+        =====
+        
+        * Add full support for Django 1.8.
+        * Drop support for Django 1.6.
+        * Drop support for Python 2.6.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities

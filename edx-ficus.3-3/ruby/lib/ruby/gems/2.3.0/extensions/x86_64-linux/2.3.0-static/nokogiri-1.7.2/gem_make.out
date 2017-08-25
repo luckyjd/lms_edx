@@ -1,0 +1,192 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/nokogiri-1.7.2/ext/nokogiri
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-9567-7qy7d.rb extconf.rb --with-xml2-dir=/bitnami/megastack-linux-x64/output/common --with-xslt-dir=/bitnami/megastack-linux-x64/output/common --with-xml2-include=/bitnami/megastack-linux-x64/output/common/include/libxml2 --with-xslt-include=/bitnami/megastack-linux-x64/output/common/include --with-xml2-lib=/bitnami/megastack-linux-x64/output/common/lib --with-xslt-lib=/bitnami/megastack-linux-x64/output/common/lib
+checking if the C compiler accepts -fPIC -I/bitnami/megastack-linux-x64/output/common/include -fPIC -I/bitnami/megastack-linux-x64/output/common/include -I/bitnami/megastack-linux-x64/output/common/include -fPIC -m64 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/... yes
+Building nokogiri using system libraries.
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0-static/nokogiri-1.7.2/mkmf.log
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/nokogiri-1.7.2/ext/nokogiri
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/nokogiri-1.7.2/ext/nokogiri
+make "DESTDIR="
+compiling xml_xpath_context.c
+compiling xml_element_content.c
+compiling xml_processing_instruction.c
+compiling xslt_stylesheet.c
+xslt_stylesheet.c: In function 'initFunc':
+xslt_stylesheet.c:217:5: warning: passing argument 1 of 'rb_data_object_get' makes integer from pointer without a cast [enabled by default]
+     Data_Get_Struct(ctxt->style->_private, nokogiriXsltStylesheetTuple,
+     ^
+In file included from /bitnami/megastack-linux-x64/output/ruby/include/ruby-2.3.0/ruby.h:33:0,
+                 from ./nokogiri.h:33,
+                 from ./xslt_stylesheet.h:4,
+                 from xslt_stylesheet.c:1:
+/bitnami/megastack-linux-x64/output/ruby/include/ruby-2.3.0/ruby/ruby.h:1397:1: note: expected 'VALUE' but argument is of type 'void *'
+ rb_data_object_get(VALUE obj)
+ ^
+xslt_stylesheet.c: In function 'shutdownFunc':
+xslt_stylesheet.c:230:5: warning: passing argument 1 of 'rb_data_object_get' makes integer from pointer without a cast [enabled by default]
+     Data_Get_Struct(ctxt->style->_private, nokogiriXsltStylesheetTuple,
+     ^
+In file included from /bitnami/megastack-linux-x64/output/ruby/include/ruby-2.3.0/ruby.h:33:0,
+                 from ./nokogiri.h:33,
+                 from ./xslt_stylesheet.h:4,
+                 from xslt_stylesheet.c:1:
+/bitnami/megastack-linux-x64/output/ruby/include/ruby-2.3.0/ruby/ruby.h:1397:1: note: expected 'VALUE' but argument is of type 'void *'
+ rb_data_object_get(VALUE obj)
+ ^
+compiling xml_node.c
+xml_node.c: In function 'reparent_node_with':
+xml_node.c:170:7: warning: enumeration value 'XML_ATTRIBUTE_NODE' not handled in switch [-Wswitch]
+       switch (reparentee->type) {
+       ^
+xml_node.c:170:7: warning: enumeration value 'XML_ENTITY_NODE' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_DOCUMENT_FRAG_NODE' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_NOTATION_NODE' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_HTML_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_DTD_NODE' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_ELEMENT_DECL' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_ATTRIBUTE_DECL' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_ENTITY_DECL' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_NAMESPACE_DECL' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_XINCLUDE_START' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_XINCLUDE_END' not handled in switch [-Wswitch]
+xml_node.c:170:7: warning: enumeration value 'XML_DOCB_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_ATTRIBUTE_NODE' not handled in switch [-Wswitch]
+       switch (reparentee->type) {
+       ^
+xml_node.c:188:7: warning: enumeration value 'XML_ENTITY_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_DOCUMENT_TYPE_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_DOCUMENT_FRAG_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_NOTATION_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_HTML_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_DTD_NODE' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_ELEMENT_DECL' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_ATTRIBUTE_DECL' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_ENTITY_DECL' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_NAMESPACE_DECL' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_XINCLUDE_START' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_XINCLUDE_END' not handled in switch [-Wswitch]
+xml_node.c:188:7: warning: enumeration value 'XML_DOCB_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_ELEMENT_NODE' not handled in switch [-Wswitch]
+       switch (reparentee->type) {
+       ^
+xml_node.c:199:7: warning: enumeration value 'XML_ATTRIBUTE_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_CDATA_SECTION_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_ENTITY_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_PI_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_COMMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_DOCUMENT_TYPE_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_DOCUMENT_FRAG_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_NOTATION_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_HTML_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_DTD_NODE' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_ELEMENT_DECL' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_ATTRIBUTE_DECL' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_ENTITY_DECL' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_NAMESPACE_DECL' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_XINCLUDE_START' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_XINCLUDE_END' not handled in switch [-Wswitch]
+xml_node.c:199:7: warning: enumeration value 'XML_DOCB_DOCUMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_CDATA_SECTION_NODE' not handled in switch [-Wswitch]
+     switch (parent->type) {
+     ^
+xml_node.c:167:5: warning: enumeration value 'XML_ENTITY_NODE' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_PI_NODE' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_COMMENT_NODE' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_DOCUMENT_TYPE_NODE' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_NOTATION_NODE' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_DTD_NODE' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_ELEMENT_DECL' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_ATTRIBUTE_DECL' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_ENTITY_DECL' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_NAMESPACE_DECL' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_XINCLUDE_START' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_XINCLUDE_END' not handled in switch [-Wswitch]
+xml_node.c:167:5: warning: enumeration value 'XML_DOCB_DOCUMENT_NODE' not handled in switch [-Wswitch]
+compiling html_document.c
+compiling xml_node_set.c
+compiling xml_reader.c
+compiling xml_entity_reference.c
+compiling xml_entity_decl.c
+compiling xml_schema.c
+compiling xml_sax_push_parser.c
+compiling xml_document_fragment.c
+compiling nokogiri.c
+compiling html_sax_push_parser.c
+compiling xml_element_decl.c
+compiling xml_sax_parser.c
+compiling xml_syntax_error.c
+compiling xml_cdata.c
+compiling xml_attr.c
+compiling xml_encoding_handler.c
+compiling xml_dtd.c
+compiling xml_attribute_decl.c
+compiling html_entity_lookup.c
+compiling xml_namespace.c
+xml_namespace.c: In function 'dealloc_namespace':
+xml_namespace.c:17:13: warning: cast discards '__attribute__((const))' qualifier from pointer target type [-Wcast-qual]
+     xmlFree((xmlChar *)ns->href);
+             ^
+xml_namespace.c:20:13: warning: cast discards '__attribute__((const))' qualifier from pointer target type [-Wcast-qual]
+     xmlFree((xmlChar *)ns->prefix);
+             ^
+xml_namespace.c: In function 'part_of_an_xpath_node_set_eh':
+xml_namespace.c:67:3: warning: passing argument 1 of 'Nokogiri_namespace_eh' from incompatible pointer type [enabled by default]
+   return (node->next && ! Nokogiri_namespace_eh(node->next));
+   ^
+xml_namespace.c:27:5: note: expected 'xmlNodePtr' but argument is of type 'struct _xmlNs *'
+ int Nokogiri_namespace_eh(xmlNodePtr node)
+     ^
+compiling xml_io.c
+compiling html_element_description.c
+In file included from /bitnami/megastack-linux-x64/output/ruby/include/ruby-2.3.0/ruby.h:33:0,
+                 from ./nokogiri.h:33,
+                 from ./html_element_description.h:4,
+                 from html_element_description.c:1:
+html_element_description.c: In function 'get_description':
+html_element_description.c:252:40: warning: cast discards '__attribute__((const))' qualifier from pointer target type [-Wcast-qual]
+   return Data_Wrap_Struct(klass, 0, 0, (void *)description);
+                                        ^
+/bitnami/megastack-linux-x64/output/ruby/include/ruby-2.3.0/ruby/ruby.h:1167:34: note: in definition of macro 'Data_Wrap_Struct'
+     rb_data_object_wrap((klass),(sval),(RUBY_DATA_FUNC)(mark),(RUBY_DATA_FUNC)(free))
+                                  ^
+compiling xml_document.c
+xml_document.c: In function 'set_encoding':
+xml_document.c:182:12: warning: cast discards '__attribute__((const))' qualifier from pointer target type [-Wcast-qual]
+       free((char *) doc->encoding); /* this may produce a gcc cast warning */
+            ^
+xml_document.c: In function 'canonicalize':
+xml_document.c:535:15: warning: cast discards '__attribute__((const))' qualifier from pointer target type [-Wcast-qual]
+       ns[i] = (xmlChar*) ptr;
+               ^
+compiling xml_sax_parser_context.c
+compiling xml_libxml2_hacks.c
+compiling xml_text.c
+compiling xml_relax_ng.c
+compiling xml_comment.c
+compiling html_sax_parser_context.c
+linking shared-object nokogiri/nokogiri.so
+Cleaning files only used during build.
+rm -rf /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/nokogiri-1.7.2/ports/archives
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/nokogiri-1.7.2/ext/nokogiri
+make "DESTDIR=" install
+/bin/install -c -m 0755 nokogiri.so ./.gem.20170811-9567-16p8evv/nokogiri

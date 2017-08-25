@@ -1,0 +1,189 @@
+{
+    "ANALYTICS_API_KEY": "",
+    "ANALYTICS_DATA_TOKEN": "",
+    "AWS_ACCESS_KEY_ID": null,
+    "AWS_QUERYSTRING_AUTH": false,
+    "AWS_S3_CUSTOM_DOMAIN": "",
+    "AWS_SECRET_ACCESS_KEY": null,
+    "AWS_STORAGE_BUCKET_NAME": "edxuploads",
+    "CC_PROCESSOR": {
+        "CyberSource": {
+            "MERCHANT_ID": "",
+            "ORDERPAGE_VERSION": "7",
+            "PURCHASE_ENDPOINT": "",
+            "SERIAL_NUMBER": "",
+            "SHARED_SECRET": ""
+        },
+        "CyberSource2": {
+            "ACCESS_KEY": "",
+            "PROFILE_ID": "",
+            "PURCHASE_ENDPOINT": "",
+            "SECRET_KEY": ""
+        }
+    },
+    "CC_PROCESSOR_NAME": "CyberSource2",
+    "CELERY_BROKER_PASSWORD": "49f7ecfa78",
+    "CELERY_BROKER_USER": "bn_edx",
+    "CONTENTSTORE": {
+        "ADDITIONAL_OPTIONS": {},
+        "DOC_STORE_CONFIG": {
+            "collection": "modulestore",
+            "connectTimeoutMS": 2000,
+            "db": "bitnami_edxapp",
+            "host": [
+                "localhost"
+            ],
+            "password": "49f7ecfa78",
+            "port": 27017,
+            "socketTimeoutMS": 3000,
+            "ssl": false,
+            "user": "bn_edx"
+        },
+        "ENGINE": "xmodule.contentstore.mongo.MongoContentStore",
+        "OPTIONS": {
+            "db": "bitnami_edxapp",
+            "host": [
+                "localhost"
+            ],
+            "password": "49f7ecfa78",
+            "port": 27017,
+            "ssl": false,
+            "user": "bn_edx"
+        }
+    },
+    "CREDIT_PROVIDER_SECRET_KEYS": {},
+    "DATABASES": {
+        "default": {
+            "ENGINE": "django.db.backends.mysql",
+            "HOST": "/opt/lms_edx/edx-ficus.3-3/mysql/tmp/mysql.sock",
+            "NAME": "bitnami_edxapp",
+            "PASSWORD": "49f7ecfa78",
+            "PORT": "",
+            "USER": "bn_edx"
+        },
+        "read_replica": {
+            "ENGINE": "django.db.backends.mysql",
+            "HOST": "/opt/lms_edx/edx-ficus.3-3/mysql/tmp/mysql.sock",
+            "NAME": "bitnami_edxapp",
+            "PASSWORD": "49f7ecfa78",
+            "PORT": "",
+            "USER": "bn_edx"
+        }
+    },
+    "DEFAULT_FILE_STORAGE": "django.core.files.storage.FileSystemStorage",
+    "DJFS": {
+        "directory_root": "/opt/lms_edx/edx-ficus.3-3/apps/edx/var/django-pyfs/static/django-pyfs",
+        "type": "osfs",
+        "url_root": "/static/django-pyfs"
+    },
+    "DOC_STORE_CONFIG": {
+        "collection": "modulestore",
+        "db": "bitnami_edxapp",
+        "connectTimeoutMS": 2000,
+        "host": [
+            "localhost"
+        ],
+        "password": "49f7ecfa78",
+        "port": 27017,
+        "socketTimeoutMS": 3000,
+        "ssl": false,
+        "user": "bn_edx"
+    },
+    "ECOMMERCE_API_SIGNING_KEY": "lms-secret",
+    "EDX_API_KEY": "2f4d7099be52d9fdaf9f",
+    "EMAIL_HOST": "smtp.gmail.com",
+    "EMAIL_PORT": 587,
+    "EMAIL_USE_TLS": true,
+    "EMAIL_HOST_USER": "edtech@wu.edu.vn",
+    "EMAIL_HOST_PASSWORD": "edtech@1211",
+    "FACEBOOK_API_VERSION": "v2.1",
+    "FACEBOOK_APP_ID": "",
+    "FACEBOOK_APP_SECRET": "",
+    "GOOGLE_ANALYTICS_ACCOUNT": null,
+    "GOOGLE_ANALYTICS_LINKEDIN": "",
+    "MODULESTORE": {
+        "default": {
+            "ENGINE": "xmodule.modulestore.mixed.MixedModuleStore",
+            "OPTIONS": {
+                "mappings": {},
+                "stores": [
+                    {
+                        "DOC_STORE_CONFIG": {
+                            "collection": "modulestore",
+                            "connectTimeoutMS": 2000,
+                            "db": "bitnami_edxapp",
+                            "host": [
+                                "localhost"
+                            ],
+                            "password": "49f7ecfa78",
+                            "port": 27017,
+                            "socketTimeoutMS": 3000,
+                            "ssl": false,
+                            "user": "bn_edx"
+                        },
+                        "ENGINE": "xmodule.modulestore.split_mongo.split_draft.DraftVersioningModuleStore",
+                        "NAME": "split",
+                        "OPTIONS": {
+                            "default_class": "xmodule.hidden_module.HiddenDescriptor",
+                            "fs_root": "/opt/lms_edx/edx-ficus.3-3/apps/edx/var/data",
+                            "render_template": "edxmako.shortcuts.render_to_string"
+                        }
+                    },
+                    {
+                        "ENGINE": "xmodule.modulestore.xml.XMLModuleStore",
+                        "NAME": "xml",
+                        "OPTIONS": {
+                            "data_dir": "/opt/lms_edx/edx-ficus.3-3/apps/edx/var/data",
+                            "default_class": "xmodule.hidden_module.HiddenDescriptor"
+                        }
+                    },
+                    {
+                        "DOC_STORE_CONFIG": {
+                            "collection": "modulestore",
+                            "connectTimeoutMS": 2000,
+                            "db": "bitnami_edxapp",
+                            "host": [
+                                "localhost"
+                            ],
+                            "password": "49f7ecfa78",
+                            "port": 27017,
+                            "socketTimeoutMS": 3000,
+                            "ssl": false,
+                            "user": "bn_edx"
+                        },
+                        "ENGINE": "xmodule.modulestore.mongo.DraftMongoModuleStore",
+                        "NAME": "draft",
+                        "OPTIONS": {
+                            "default_class": "xmodule.hidden_module.HiddenDescriptor",
+                            "fs_root": "/opt/lms_edx/edx-ficus.3-3/apps/edx/var/data",
+                            "render_template": "edxmako.shortcuts.render_to_string"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "OPTIMIZELY_PROJECT_ID": null,
+    "PEARSON_TEST_PASSWORD": "",
+    "SECRET_KEY": "145e1933bc6060b697a2",
+    "SEGMENT_KEY": null,
+    "THIRD_PARTY_AUTH": {},
+    "TRACKING_SEGMENTIO_WEBHOOK_SECRET": "",
+    "VERIFY_STUDENT": {
+        "DAYS_GOOD_FOR": 365
+    },
+    "XQUEUE_INTERFACE": {
+        "basic_auth": [
+            "edx",
+            "edx"
+        ],
+        "django_auth": {
+            "password": "49f7ecfa78",
+            "username": "lms"
+        },
+        "url": "http://localhost:18040"
+    },
+    "YOUTUBE_API_KEY": "",
+    "ZENDESK_API_KEY": "",
+    "ZENDESK_USER": ""
+}

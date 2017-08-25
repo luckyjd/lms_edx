@@ -1,0 +1,15 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/posix-spawn-0.3.13/ext
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-28387-r1gqqz.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" install
+/bin/install -c -m 0755 posix_spawn_ext.so ./.gem.20170811-28387-cxdmap

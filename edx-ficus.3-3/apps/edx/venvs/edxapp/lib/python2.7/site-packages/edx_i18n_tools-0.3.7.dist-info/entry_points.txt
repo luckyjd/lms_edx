@@ -1,0 +1,3 @@
+[console_scripts]
+i18n_tool = i18n.main:main
+

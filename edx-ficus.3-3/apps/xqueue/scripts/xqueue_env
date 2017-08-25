@@ -1,0 +1,10 @@
+#!/bin/sh
+. /opt/lms_edx/edx-ficus.3-3/scripts/setenv.sh
+. /opt/lms_edx/edx-ficus.3-3/apps/xqueue/venvs/xqueue/bin/activate
+export DJANGO_SETTINGS_MODULE=xqueue.bitnami_settings
+export PYTHONPATH=$PYTHONPATH:/opt/lms_edx/edx-ficus.3-3/apps/xqueue/xqueue
+# Configuration for XQueue testing environment
+export NOSE_XUNIT_FILE="/opt/lms_edx/edx-ficus.3-3/apps/xqueue/var/reports/nosetests.xml"
+export NOSE_COVER_HTML_DIR="/opt/lms_edx/edx-ficus.3-3/apps/xqueue/var/reports/cover"
+# Necessary for the virtualenv binaries to work
+export BITNAMI_ROOT=/opt/lms_edx/edx-ficus.3-3

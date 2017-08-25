@@ -1,0 +1,15 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_stack-0.1.0/ext/fast_stack
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-32110-1euxro1.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_stack-0.1.0/ext/fast_stack
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_stack-0.1.0/ext/fast_stack
+make "DESTDIR="
+compiling fast_stack.c
+linking shared-object fast_stack/fast_stack.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_stack-0.1.0/ext/fast_stack
+make "DESTDIR=" install
+/bin/install -c -m 0755 fast_stack.so ./.gem.20170811-32110-1h68m07/fast_stack

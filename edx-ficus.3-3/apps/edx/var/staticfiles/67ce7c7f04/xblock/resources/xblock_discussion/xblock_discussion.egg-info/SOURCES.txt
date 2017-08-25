@@ -1,0 +1,6 @@
+xblock_discussion.egg-info/PKG-INFO
+xblock_discussion.egg-info/SOURCES.txt
+xblock_discussion.egg-info/dependency_links.txt
+xblock_discussion.egg-info/entry_points.txt
+xblock_discussion.egg-info/requires.txt
+xblock_discussion.egg-info/top_level.txt

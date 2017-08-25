@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dogapi
+Version: 1.2.1
+Summary: Python bindings to Datadog's API and a user-facing command line tool.
+Home-page: http://www.datadoghq.com
+Author: Datadog, Inc.
+Author-email: packages@datadoghq.com
+License: BSD
+Description: UNKNOWN
+Keywords: datadog data
+Platform: UNKNOWN

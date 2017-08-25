@@ -1,0 +1,20 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/src/helper-scripts/download_binaries
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-12188-n74ybf.rb extconf.rb
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.1.2/rubyext-ruby-2.3.4-x86_64-linux.tar.gz into /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/download_cache
+*** Could not download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.1.2/rubyext-ruby-2.3.4-x86_64-linux.tar.gz: The requested URL returned error: 404 Not Found
+Attempting to download https://s3.amazonaws.com/phusion-passenger/binaries/passenger/by_release/5.1.2/rubyext-ruby-2.3.4-x86_64-linux.tar.gz into /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/download_cache
+*** Could not download https://s3.amazonaws.com/phusion-passenger/binaries/passenger/by_release/5.1.2/rubyext-ruby-2.3.4-x86_64-linux.tar.gz: The requested URL returned error: 403 Forbidden
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.1.2/nginx-1.10.2-x86_64-linux.tar.gz into /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.1.2/agent-x86_64-linux.tar.gz into /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/download_cache
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/src/helper-scripts/download_binaries
+make "DESTDIR=" clean
+true
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/src/helper-scripts/download_binaries
+make "DESTDIR="
+true
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/src/helper-scripts/download_binaries
+make "DESTDIR=" install
+true

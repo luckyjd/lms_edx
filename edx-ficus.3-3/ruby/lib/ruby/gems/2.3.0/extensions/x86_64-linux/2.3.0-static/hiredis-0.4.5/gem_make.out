@@ -1,0 +1,22 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/hiredis-0.4.5/ext/hiredis_ext
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-31785-16md57k.rb extconf.rb
+gcc -std=c99 -pedantic -c -O3 -fPIC -fPIC -I/bitnami/megastack-linux-x64/output/common/include -fPIC -I/bitnami/megastack-linux-x64/output/common/include -I/bitnami/megastack-linux-x64/output/common/include -fPIC -m64 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb net.c
+gcc -std=c99 -pedantic -c -O3 -fPIC -fPIC -I/bitnami/megastack-linux-x64/output/common/include -fPIC -I/bitnami/megastack-linux-x64/output/common/include -I/bitnami/megastack-linux-x64/output/common/include -fPIC -m64 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb hiredis.c
+gcc -std=c99 -pedantic -c -O3 -fPIC -fPIC -I/bitnami/megastack-linux-x64/output/common/include -fPIC -I/bitnami/megastack-linux-x64/output/common/include -I/bitnami/megastack-linux-x64/output/common/include -fPIC -m64 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb sds.c
+gcc -std=c99 -pedantic -c -O3 -fPIC -fPIC -I/bitnami/megastack-linux-x64/output/common/include -fPIC -I/bitnami/megastack-linux-x64/output/common/include -I/bitnami/megastack-linux-x64/output/common/include -fPIC -m64 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6 -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/wand/ -I/bitnami/megastack-linux-x64/output/ImageMagick/include/ImageMagick-6/MagickCore/ -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb async.c
+ar rcs libhiredis.a net.o hiredis.o sds.o async.o
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/hiredis-0.4.5/ext/hiredis_ext
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/hiredis-0.4.5/ext/hiredis_ext
+make "DESTDIR="
+compiling connection.c
+compiling hiredis_ext.c
+compiling reader.c
+linking shared-object hiredis/ext/hiredis_ext.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/hiredis-0.4.5/ext/hiredis_ext
+make "DESTDIR=" install
+/bin/install -c -m 0755 hiredis_ext.so ./.gem.20170811-31785-1l1ogfe/hiredis/ext

@@ -1,0 +1,3 @@
+#!/bin/sh
+export LD_LIBRARY_PATH=/opt/lms_edx/edx-ficus.3-3/ruby/lib/ruby/gems/2.3.0/gems/passenger-5.1.2/lib:/opt/lms_edx/edx-ficus.3-3/postgresql/lib:/opt/lms_edx/edx-ficus.3-3/git/lib:/opt/lms_edx/edx-ficus.3-3/perl/lib:/opt/lms_edx/edx-ficus.3-3/perl/lib/5.16.3/x86_64-linux-thread-multi/CORE:/opt/lms_edx/edx-ficus.3-3/erlang/lib:/opt/lms_edx/edx-ficus.3-3/ruby/lib:/opt/lms_edx/edx-ficus.3-3/python/lib:/opt/lms_edx/edx-ficus.3-3/memcached/lib:/opt/lms_edx/edx-ficus.3-3/mongodb/lib:/opt/lms_edx/edx-ficus.3-3/sqlite/lib:/opt/lms_edx/edx-ficus.3-3/mysql/lib:/opt/lms_edx/edx-ficus.3-3/apache2/lib:/opt/lms_edx/edx-ficus.3-3/common/lib:$LD_LIBRARY_PATH
+exec /opt/lms_edx/edx-ficus.3-3/apps/xqueue/venvs/xqueue/bin/.python2.7.bin "$@"

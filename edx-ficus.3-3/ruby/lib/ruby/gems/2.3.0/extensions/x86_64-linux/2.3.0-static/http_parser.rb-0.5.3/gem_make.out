@@ -1,0 +1,16 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.5.3/ext/ruby_http_parser
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-31992-1uphcwx.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.5.3/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.5.3/ext/ruby_http_parser
+make "DESTDIR="
+compiling ryah_http_parser.c
+compiling ruby_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.5.3/ext/ruby_http_parser
+make "DESTDIR=" install
+/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20170811-31992-1ggxi1a

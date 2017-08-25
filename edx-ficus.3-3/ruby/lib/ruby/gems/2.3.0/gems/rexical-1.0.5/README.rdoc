@@ -1,0 +1,52 @@
+= Rexical
+
+* http://github.com/tenderlove/rexical/tree/master
+
+== DESCRIPTION
+
+Rexical is a lexical scanner generator.
+It is written in Ruby itself, and generates Ruby program.
+It is designed for use with Racc.
+
+
+== SYNOPSIS
+
+Here is a sample lexical definition:
+
+  class Sample
+  macro
+    BLANK         [\ \t]+
+  rule
+    BLANK         # no action
+    \d+           { [:digit, text.to_i] }
+    \w+           { [:word, text] }
+    \n
+    .             { [text, text] }
+  end
+
+Here is the command line usage:
+
+  $ rex  sample1.rex  --stub
+  $ ruby sample1.rex.rb  sample1.c
+  
+  $ rex  sample2.rex  --stub
+  $ ruby sample2.rex.rb  sample2.bas
+  
+  $ racc calc3.racc
+  $ rex  calc3.rex
+  $ ruby calc3.tab.rb
+
+== REQUIREMENTS
+
+*  ruby version 1.8.x or later.
+
+== INSTALL
+
+* sudo gem install rexical
+
+== LICENSE
+
+Rexical is distributed under the terms of the GNU Lesser General
+Public License version 2. Note that you do NOT need to follow
+LGPL for your own parser (Rexical outputs). You can provide those
+files under any licenses you want.

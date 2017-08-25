@@ -1,0 +1,19 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rinku-2.0.2/ext/rinku
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-31938-25vq4f.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rinku-2.0.2/ext/rinku
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rinku-2.0.2/ext/rinku
+make "DESTDIR="
+compiling buffer.c
+compiling autolink.c
+compiling utf8.c
+compiling rinku_rb.c
+compiling rinku.c
+linking shared-object rinku.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rinku-2.0.2/ext/rinku
+make "DESTDIR=" install
+/bin/install -c -m 0755 rinku.so ./.gem.20170811-31938-1vg17w2

@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "bundler"
+gem "hoe"
+gem "hoe-debugging", path: "../../.."
+gem "minitest"
+gem "rake-compiler"

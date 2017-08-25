@@ -1,0 +1,10 @@
+prefix=/opt/lms_edx/edx-ficus.3-3/common
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: LibYAML
+Description: Library to parse and emit YAML
+Version: 0.1.5
+Cflags:
+Libs: -L${libdir} -lyaml

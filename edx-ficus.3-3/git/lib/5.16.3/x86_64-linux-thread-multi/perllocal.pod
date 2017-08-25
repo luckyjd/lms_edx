@@ -1,0 +1,22 @@
+=head2 Fri Aug 11 13:28:22 2017: C<Module> L<Git|Git>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/lms_edx/edx-ficus.3-3/git/lib/site_perl/5.16.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

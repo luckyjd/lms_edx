@@ -1,0 +1,28 @@
+2017-08-24 08:20:13,912 INFO 17458 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2017-08-24 08:20:14,515 WARNING 17458 [py.warnings] base.py:260 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/base.py:260: RemovedInDjango19Warning: "requires_model_validation" is deprecated in favor of "requires_system_checks".
+  RemovedInDjango19Warning)
+
+2017-08-24 08:20:15,705 WARNING 17458 [py.warnings] worker.py:161 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2017-08-24 08:20:15,924 INFO 17458 [celery.worker.consumer] consumer.py:479 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2017-08-24 08:20:16,023 INFO 17458 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2017-08-24 08:20:17,069 INFO 17458 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2017-08-24 08:20:17,142 WARNING 17458 [celery.redirected] log.py:282 - celery@edx.cms.core.high.LMS-SRV ready.

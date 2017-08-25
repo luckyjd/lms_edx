@@ -1,0 +1,3 @@
+#!/bin/sh
+. /opt/lms_edx/edx-ficus.3-3/apache2/bin/envvars
+exec /opt/lms_edx/edx-ficus.3-3/apache2/bin/pagespeed_js_minify.bin "$@"

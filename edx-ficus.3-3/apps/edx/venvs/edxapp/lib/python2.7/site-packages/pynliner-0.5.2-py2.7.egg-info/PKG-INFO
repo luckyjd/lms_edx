@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pynliner
+Version: 0.5.2
+Summary: Python CSS-to-inline-styles conversion tool for HTML using BeautifulSoup and cssutils
+Home-page: UNKNOWN
+Author: Tanner Netterville
+Author-email: tannern@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides: pynliner

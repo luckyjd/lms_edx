@@ -1,0 +1,4 @@
+BUNDLE_BUILD__NOKOGIRI: --with-xml2-dir=/opt/lms_edx/edx-ficus.3-3/common --with-xslt-dir=/opt/lms_edx/edx-ficus.3-3/common --with-xml2-include=/opt/lms_edx/edx-ficus.3-3/common/include/libxml2 --with-xslt-include=/opt/lms_edx/edx-ficus.3-3/common/include --with-xml2-lib=/opt/lms_edx/edx-ficus.3-3/common/lib --with-xslt-lib=/opt/lms_edx/edx-ficus.3-3/common/lib 
+BUNDLE_BUILD__SQLITE3: --with-sqlite3-dir=/opt/lms_edx/edx-ficus.3-3/sqlite --with-sqlite3-lib=/opt/lms_edx/edx-ficus.3-3/sqlite/lib --with-sqlite3-include=/opt/lms_edx/edx-ficus.3-3/sqlite/include 
+BUNDLE_BUILD__SQLITE3-RUBY: --with-sqlite3-dir=/opt/lms_edx/edx-ficus.3-3/sqlite --with-sqlite3-lib=/opt/lms_edx/edx-ficus.3-3/sqlite/lib --with-sqlite3-include=/opt/lms_edx/edx-ficus.3-3/sqlite/include 
+BUNDLE_BUILD__CHARLOCK_HOLMES: --with-icu-dir=/opt/lms_edx/edx-ficus.3-3/common --with-icu-lib=/opt/lms_edx/edx-ficus.3-3/common/lib 

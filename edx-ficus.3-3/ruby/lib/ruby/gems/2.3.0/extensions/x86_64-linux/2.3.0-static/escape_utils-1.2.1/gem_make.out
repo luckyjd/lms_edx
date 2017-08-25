@@ -1,0 +1,24 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/escape_utils-1.2.1/ext/escape_utils
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-29000-h40bfu.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/escape_utils-1.2.1/ext/escape_utils
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/escape_utils-1.2.1/ext/escape_utils
+make "DESTDIR="
+compiling buffer.c
+compiling houdini_xml_e.c
+compiling houdini_js_e.c
+compiling houdini_html_u.c
+compiling houdini_js_u.c
+compiling escape_utils.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling houdini_uri_e.c
+compiling houdini_uri_u.c
+linking shared-object escape_utils/escape_utils.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/escape_utils-1.2.1/ext/escape_utils
+make "DESTDIR=" install
+/bin/install -c -m 0755 escape_utils.so ./.gem.20170811-29000-gqpiyf/escape_utils

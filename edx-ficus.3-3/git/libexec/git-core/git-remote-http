@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /opt/lms_edx/edx-ficus.3-3/scripts/setenv.sh
+
+exec /opt/lms_edx/edx-ficus.3-3/git/libexec/git-core/.git-remote-http.bin  "$@"

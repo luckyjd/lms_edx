@@ -1,0 +1,24 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/redcarpet-3.0.0/ext/redcarpet
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-32246-mh909d.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/redcarpet-3.0.0/ext/redcarpet
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/redcarpet-3.0.0/ext/redcarpet
+make "DESTDIR="
+compiling buffer.c
+compiling autolink.c
+compiling rc_render.c
+compiling html.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html_smartypants.c
+compiling stack.c
+compiling markdown.c
+compiling rc_markdown.c
+linking shared-object redcarpet.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/redcarpet-3.0.0/ext/redcarpet
+make "DESTDIR=" install
+/bin/install -c -m 0755 redcarpet.so ./.gem.20170811-32246-qaf1sq

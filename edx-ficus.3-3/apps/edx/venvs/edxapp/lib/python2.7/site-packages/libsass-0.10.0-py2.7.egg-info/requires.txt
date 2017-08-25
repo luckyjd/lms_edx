@@ -1,0 +1,8 @@
+six
+
+[tests]
+flake8 >= 2.4.0
+Werkzeug >= 0.9
+
+[upload_appveyor_builds]
+twine == 1.5.0

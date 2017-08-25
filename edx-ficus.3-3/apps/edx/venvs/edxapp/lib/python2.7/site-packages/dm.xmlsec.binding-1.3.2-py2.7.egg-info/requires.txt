@@ -1,0 +1,2 @@
+setuptools
+lxml>=3.0

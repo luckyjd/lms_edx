@@ -1,0 +1,15 @@
+prefix=/opt/lms_edx/edx-ficus.3-3/common
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ImageMagick-6
+includearchdir=/opt/lms_edx/edx-ficus.3-3/common/include/ImageMagick-6
+libname=MagickWand-6.Q16
+ 
+Name: MagickWand
+Description: MagickWand - C API for ImageMagick (ABI Q16)
+URL: https://www.imagemagick.org
+Version: 6.9.8
+Requires: MagickCore
+Cflags: -I${includearchdir} -I${includedir} -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16
+Libs: -L${libdir} -l${libname} 
+Libs.private: -L${libdir} -l${libname}   -L/opt/lms_edx/edx-ficus.3-3/common/lib -lfreetype      -L/opt/lms_edx/edx-ficus.3-3/common/lib -lfontconfig       -lbz2 -L/opt/lms_edx/edx-ficus.3-3/common/lib -lz  -lltdl  -lm      -lm

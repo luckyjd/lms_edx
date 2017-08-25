@@ -1,0 +1,5 @@
+[{release,"Erlang/OTP","18","7.0",
+          [{kernel,"4.0","/opt/lms_edx/edx-ficus.3-3/erlang/lib/erlang/lib/kernel-4.0"},
+           {stdlib,"2.5","/opt/lms_edx/edx-ficus.3-3/erlang/lib/erlang/lib/stdlib-2.5"},
+           {sasl,"2.5","/opt/lms_edx/edx-ficus.3-3/erlang/lib/erlang/lib/sasl-2.5"}],
+          permanent}].

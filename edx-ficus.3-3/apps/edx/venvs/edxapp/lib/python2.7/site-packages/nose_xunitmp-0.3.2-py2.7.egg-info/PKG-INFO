@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: nose-xunitmp
+Version: 0.3.2
+Summary: Xunit output when running multiprocess tests using nose
+Home-page: UNKNOWN
+Author: Ignas Mikalajunas
+Author-email: ignas@uber.com
+License: MIT
+Description: Summary
+        =======
+        
+        Nose plugin that makes xunit xml reports work when running tests on
+        more than one cpu.
+        
+        Installation
+        ============
+        
+        ::
+        
+          $ pip install nose_xunitmp
+        
+        
+        Usage
+        =====
+        
+        ::
+        
+          $ nosetests --with-xunitmp
+          $ nosetests --xunitmp-file results.xml
+        
+        
+        0.3
+        ---
+        
+        -  Updated to support nose 1.3
+        
+        0.2
+        ---
+        
+        -  Fixed depedency on nose
+        
+        0.1
+        ---
+        
+        -  Initial release
+        
+Keywords: nosetest xunit multiprocessing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing

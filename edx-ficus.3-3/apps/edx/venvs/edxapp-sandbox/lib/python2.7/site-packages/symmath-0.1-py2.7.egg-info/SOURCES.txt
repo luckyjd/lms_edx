@@ -1,0 +1,10 @@
+symmath/__init__.py
+symmath/formula.py
+symmath/symmath_check.py
+symmath/test_formula.py
+symmath/test_symmath_check.py
+symmath.egg-info/PKG-INFO
+symmath.egg-info/SOURCES.txt
+symmath.egg-info/dependency_links.txt
+symmath.egg-info/requires.txt
+symmath.egg-info/top_level.txt

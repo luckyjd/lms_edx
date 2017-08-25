@@ -1,0 +1,38 @@
+from django.contrib.admin import *  # noqa
+from django.contrib.admin import (site as django_site,
+                                  autodiscover as django_autodiscover)
+from django.contrib.auth import REDIRECT_FIELD_NAME
+from django.utils.translation import ugettext as _
+
+from .forms import AdminAuthenticationForm
+from .views import login
+
+
+class RateLimitAdminSite(AdminSite):
+    def login(self, request, extra_context=None):
+        """
+        Displays the login form for the given HttpRequest.
+        """
+        context = {
+            'title': _('Log in'),
+            'app_path': request.get_full_path(),
+        }
+        if (REDIRECT_FIELD_NAME not in request.GET and
+                REDIRECT_FIELD_NAME not in request.POST):
+            context[REDIRECT_FIELD_NAME] = request.get_full_path()
+        context.update(extra_context or {})
+        defaults = {
+            'extra_context': context,
+            'current_app': self.name,
+            'authentication_form': self.login_form or AdminAuthenticationForm,
+            'template_name': self.login_template or 'admin/login.html',
+        }
+        return login(request, **defaults)
+site = RateLimitAdminSite()
+
+
+def autodiscover():
+    django_autodiscover()
+    for model, modeladmin in django_site._registry.items():
+        if model not in site._registry:
+            site.register(model, modeladmin.__class__)

@@ -1,0 +1,49 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rdiscount-2.2.0.1/ext
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-28158-rjw1s8.rb extconf.rb
+checking for random()... yes
+checking for srandom()... yes
+checking for rand()... yes
+checking for srand()... yes
+checking size of unsigned long... 8
+checking size of unsigned int... 4
+checking size of unsigned int... 4
+checking size of unsigned short... 2
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0-static/rdiscount-2.2.0.1/mkmf.log
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rdiscount-2.2.0.1/ext
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rdiscount-2.2.0.1/ext
+make "DESTDIR="
+compiling rdiscount.c
+compiling xmlpage.c
+compiling emmatch.c
+compiling css.c
+compiling xml.c
+compiling flags.c
+compiling docheader.c
+compiling toc.c
+compiling version.c
+compiling mktags.c
+compiling tags.c
+compiling github_flavoured.c
+compiling basename.c
+compiling markdown.c
+compiling html5.c
+compiling Csio.c
+compiling dumptree.c
+compiling generate.c
+compiling resource.c
+compiling mkdio.c
+compiling pgm_options.c
+compiling setup.c
+compiling amalloc.c
+linking shared-object rdiscount.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/rdiscount-2.2.0.1/ext
+make "DESTDIR=" install
+/bin/install -c -m 0755 rdiscount.so ./.gem.20170811-28158-krfltq

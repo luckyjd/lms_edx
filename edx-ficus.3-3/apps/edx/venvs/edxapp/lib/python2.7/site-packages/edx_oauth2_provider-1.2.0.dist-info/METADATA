@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: edx-oauth2-provider
+Version: 1.2.0
+Summary: Provide OAuth2 access to edX installations
+Home-page: https://github.com/edx/edx-oauth2-provider
+Author: edX
+Author-email: UNKNOWN
+License: AGPL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
+Requires-Dist: PyJWT (>=1.4.0,<2.0.0)
+Requires-Dist: django (>=1.8.7,<1.9)
+Requires-Dist: edx-django-oauth2-provider (>=0.3.0,<2.0.0)
+
+UNKNOWN
+
+

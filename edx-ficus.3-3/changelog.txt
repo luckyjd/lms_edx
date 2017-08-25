@@ -1,0 +1,119 @@
+============ CHANGELOG =============
+
+Version ficus.3-3      2017-08-16
+* Removed Pagespeed
+* Updated Node.js to 6.11.1
+* Updated Apache to 2.4.27
+* Updated Memcached to 1.4.39
+* Updated MongoDB to 3.4.5
+* Updated Git to 2.14.1
+* Updated MySQL to 5.6.37
+
+Version ficus.3-2      2017-06-16
+* Updated Ruby to 2.3.4
+* Fix sudo vulnerability (CVE-2017-1000367)
+* Updated OpenSSL to 1.0.2l
+
+Version ficus.3-1      2017-05-17
+* Fix issue where courses would not appear for non-staff users
+* Updated Memcached to 1.4.36
+* Updated Nodejs to 6.10.3
+* Updated MySQL to 5.6.36
+* Updated MongoDB to 3.4.4
+* Updated Java to 1.8.0_131
+
+Version ficus.3-0      2017-04-25
+* Updated Open edX to Ficus
+* Updated Erlang to 18.0
+* Updated Passenger to 5.1.2
+* Updated ImageMagick to 6.9.8 (Security fixes for CVE-2015-8902, CVE-2016-5240, CVE-2015-8903, CVE-2015-8900 and CVE-2015-8901)
+* Updated Node.js to 6.10.1
+
+Version eucalyptus.3-1      2017-03-30
+* Fixed problem on Apache Configuration
+
+Version eucalyptus.3-0      2017-03-23
+* Updated Open edX to Eucalyptus
+* Updated Memcached to 1.4.35
+* Updated Node.js to 6.10.0
+* Updated OpenSSL to 1.0.2k (Security fixes for CVE-2017-3731, CVE-2017-3731, CVE-2017-3731, and CVE-2016-7055)
+* Updated Java to 1.8.0_121
+* Updated Python to 2.7.13
+* Updated Apache to 2.4.25
+* Updated MySQL to 5.6.35
+
+Version 20160414-5      2016-09-29
+* Updated OpenSSL to 1.0.2j (Security fix CVE-2016-6304)
+* Updated MySQL to 5.6.33
+* Updated NodeJs to 6.5.0
+
+Version 20160414-4      2016-08-29
+* Updated Memcached to 1.4.31
+* Updated Nodejs to 6.4.0
+
+Version 20160414-3      2016-08-17
+* Patched Off-Path TCP Linux Kernel Vulnerability in Cloud Images and Virtual Machines (Security release CVE-2016-5696)
+* Updated MySQL to 5.6.32
+* Updated Ruby to 2.1.10
+* Updated Java to 1.8.0_101
+* Updated Memcached to 1.4.29
+* Blocked Proxy request header in the web server (Security issue CVE-2016-5385, CVE-2016-5387, CVE-2016-1000110)
+* Updated Apache to 2.4.23
+* Updated Python to 2.7.12
+* Updated Nodejs to 6.3.0
+
+
+Version 20160414-2      2016-05-06
+* Updated policy of ImageMagick (disabled TEXT, SHOW, WIN, PLT) (Security CVE-2016-3714)
+* Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+
+Version 20160414-1      2016-05-04
+* Modified policy of ImageMagick (Security CVE-2016-3714)
+
+Version 20160414-0      2016-04-29
+* Updated PageSpeed to 1.9.32.14
+* Updated Java to 1.8.0_91 (Security release CVE-2016-3427, CVE-2016-3427, CVE-2016-3425)
+* Updated edX to dogwood (20160414)
+
+Version cypress-4      2016-01-19
+* Updated libpng to 1.5.26 (Security release CVE-2015-8540)
+* Updated Ruby to 2.1.8
+* Updated Apache to 2.4.18
+* Updated Python to 2.7.11
+* Updated MySQL to 5.6.28
+* Updated Node.js to 4.2.3 (Security release CVE-2015-8027, CVE-2015-6764, CVE-2015-3193 and CVE-2015-3194)
+* Updated OpenSSL to 1.0.1q
+
+Version cypress-3      2015-11-20
+* Updated libpng to 1.5.24 (security issue)
+* Updated Node.js to 5.1.0
+
+Version cypress-2      2015-10-27
+* Updated Java to 1.8.0_65
+* Updated MySQL to 5.6.27
+* Updated Node.js to 4.2.1
+* Updated Apache to 2.4.17
+
+Version cypress-0      2015-09-11
+* Updated Open edX to Cypress
+* Included XQueue Cypress
+* Included RabbitMQ 3.5.4
+* Included XBlock File Storage and Office Mix
+* Updated Apache to 2.4.16
+* Updated Node.js to 0.12.7
+
+Version birch-4      2015-07-10
+* Updated OpenSSL to 1.0.1p
+
+Version birch-3      2015-06-30
+* Updated Node.js to 0.12.5
+* Fixed application links for Cloud Images
+
+Version birch-2      2015-06-24
+* Update Open edX logo
+
+Version birch-1      2015-06-11
+* Fixed link to edX Studio
+
+Version birch-0      2015-06-10
+* Initial release, bundles Apache  2.4.12, Ruby  2.0.0-p645, Passenger  5.0.6, PHP  5.4.39, OpenSSL  1.0.1m, Java 1.7.0_76, Git 1.9.5, Python to 2.7.9

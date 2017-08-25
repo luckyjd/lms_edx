@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pylint-django
+Version: 0.6.1
+Summary: pylint-django is a Pylint plugin to aid Pylint in recognising and understandingerrors caused when using the Django framework
+Home-page: https://github.com/landscapeio/pylint-django
+Author: landscape.io
+Author-email: code@landscape.io
+License: GPLv2
+Description: UNKNOWN
+Keywords: pylint django plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

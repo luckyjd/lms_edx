@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: nose-ignore-docstring
+Version: 0.2
+Summary: Ignore docstring to name tests in nose.
+Home-page: https://github.com/schlamar/nose-ignore-docstring
+Author: Marc Schlaich
+Author-email: marc.schlaich@gmail.com
+License: MIT
+Description: Nose ignore docstrings
+        ======================
+        
+        This is a plugin for nose. If this plugin is active, nose doesn't use
+        docstrings to name tests.
+        
+        
+        Installation
+        ------------
+        
+        You can install or upgrade ``nose-ignore-docstring`` with these commands::
+        
+          $ pip install nose-ignore-docstring
+          $ pip install --upgrade nose-ignore-docstring
+        
+        
+        
+        Usage
+        -----
+        
+        Pass the ``--with-ignore-docstrings`` option to ``nosetests``::
+        
+            $ nosetests --with-ignore-docstrings -v
+            ...
+        
+        Or define the following entry in ``setup.cfg``::
+        
+            [nosetests]
+            with-ignore-docstrings=1
+        
+        
+        Changes
+        -------
+        
+        
+        0.1 - 2013-04-17
+        ````````````````
+        * First release
+        
+Keywords: nose testing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

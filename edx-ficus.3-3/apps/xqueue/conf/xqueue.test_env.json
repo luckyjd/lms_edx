@@ -1,0 +1,27 @@
+{
+  "RABBITMQ_USER": "bn_xqueue",
+  "RABBITMQ_PASS": "878aad6e2c",
+  "RABBIT_HOST": "127.0.0.1",
+  "RABBIT_VHOST": "/",
+  "DATABASES": {
+    "default": {
+      "ENGINE": "django.db.backends.mysql",
+      "HOST": "/opt/lms_edx/edx-ficus.3-3/mysql/tmp/mysql.sock",
+      "PORT": "",
+      "NAME": "test_xqueue",
+      "USER": "bn_xqueue",
+      "PASSWORD": "878aad6e2c",
+      "ATOMIC_REQUESTS": true,
+      "TEST": {
+        "NAME": ""
+      }
+    }
+  },
+  "XQUEUES": {
+    "certificates": null,
+    "open-ended": null,
+    "open-ended-message": null,
+    "test-pull": null
+  },
+  "MATHWORKS_API_KEY": null
+}

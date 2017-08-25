@@ -1,0 +1,2 @@
+simplejson>=2.0.9
+decorator>=3.3.2

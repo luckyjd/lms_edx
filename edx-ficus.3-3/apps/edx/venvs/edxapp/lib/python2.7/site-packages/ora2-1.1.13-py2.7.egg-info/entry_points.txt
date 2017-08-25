@@ -1,0 +1,3 @@
+[xblock.v1]
+openassessment = openassessment.xblock.openassessmentblock:OpenAssessmentBlock
+

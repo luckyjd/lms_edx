@@ -1,0 +1,6 @@
+/bitnami/megastack-linux-x64/output/perl/bin/shasum
+/bitnami/megastack-linux-x64/output/perl/lib/5.16.3/x86_64-linux-thread-multi/Digest/SHA.pm
+/bitnami/megastack-linux-x64/output/perl/lib/5.16.3/x86_64-linux-thread-multi/auto/Digest/SHA/SHA.bs
+/bitnami/megastack-linux-x64/output/perl/lib/5.16.3/x86_64-linux-thread-multi/auto/Digest/SHA/SHA.so
+/bitnami/megastack-linux-x64/output/perl/man/man1/shasum.1
+/bitnami/megastack-linux-x64/output/perl/man/man3/Digest::SHA.3

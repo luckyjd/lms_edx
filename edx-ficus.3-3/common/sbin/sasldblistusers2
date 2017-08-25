@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /opt/lms_edx/edx-ficus.3-3/scripts/setenv.sh
+SASL_PATH="/opt/lms_edx/edx-ficus.3-3/common/lib/sasl2"
+                export SASL_PATH
+exec /opt/lms_edx/edx-ficus.3-3/common/sbin/.sasldblistusers2.bin -f "/opt/lms_edx/edx-ficus.3-3/common/etc/sasldb2" "$@"

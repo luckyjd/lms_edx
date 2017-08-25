@@ -1,0 +1,27 @@
+[
+ {rabbit,
+  [
+ %%    {tcp_listeners, [5672]},
+ %%    {default_vhost, <<"/">>},
+ %%    {default_user, <<"guest">>},
+ %%    {default_pass, <<"guest">>},
+ %%    {default_permissions, [<<".*">>, <<".*">>, <<".*">>]}
+  ]
+ },
+ {kernel, []},
+ {rabbitmq_management,
+  [
+ %%    {listener, [{port, 12345}, {ip, "127.0.0.1"}]}
+  ]
+ },
+ {rabbitmq_shovel,
+  [
+    {shovels, []}
+  ]
+ },
+ {rabbitmq_stomp, []},
+ {rabbitmq_mqtt, []},
+ {rabbitmq_amqp1_0, []},
+ {rabbitmq_auth_backend_ldap, []}
+ ].
+                            

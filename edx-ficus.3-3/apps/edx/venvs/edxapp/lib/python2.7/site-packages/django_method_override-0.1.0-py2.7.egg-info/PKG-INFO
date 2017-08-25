@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: django-method-override
+Version: 0.1.0
+Summary: Django Middleware for HTTP Method Override Form Params & Header
+Home-page: https://bitbucket.org/localmed/django-method-override
+Author: LocalMed
+Author-email: pete.browne@localmed.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: WWW/HTTP

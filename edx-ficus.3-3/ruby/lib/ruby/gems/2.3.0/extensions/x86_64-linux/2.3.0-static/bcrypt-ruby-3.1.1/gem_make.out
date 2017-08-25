@@ -1,0 +1,24 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bcrypt-ruby-3.1.1/ext/mri
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-9512-a23vxx.rb extconf.rb
+checking for ruby/util.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0-static/bcrypt-ruby-3.1.1/mkmf.log
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bcrypt-ruby-3.1.1/ext/mri
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bcrypt-ruby-3.1.1/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+compiling crypt.c
+compiling crypt_blowfish.c
+linking shared-object bcrypt_ext.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/bcrypt-ruby-3.1.1/ext/mri
+make "DESTDIR=" install
+/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170811-9512-hg3li0

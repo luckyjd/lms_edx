@@ -1,0 +1,9 @@
+#!/bin/sh
+LC_ALL="C"
+export LC_ALL
+case "$@" in
+  *--host*)
+    exec $0.bin "$@"
+    exit
+esac
+exec $0.bin --host /opt/lms_edx/edx-ficus.3-3/mongodb/tmp/mongodb-27017.sock "$@"

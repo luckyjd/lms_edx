@@ -1,0 +1,11 @@
+README
+eia.py
+loncapa/__init__.py
+loncapa/loncapa_check.py
+sandbox_packages.egg-info/PKG-INFO
+sandbox_packages.egg-info/SOURCES.txt
+sandbox_packages.egg-info/dependency_links.txt
+sandbox_packages.egg-info/top_level.txt
+verifiers/__init__.py
+verifiers/draganddrop.py
+verifiers/tests_draganddrop.py

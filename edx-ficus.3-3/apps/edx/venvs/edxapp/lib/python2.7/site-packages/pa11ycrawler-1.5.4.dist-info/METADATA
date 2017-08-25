@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: pa11ycrawler
+Version: 1.5.4
+Summary: A Scrapy spider for a11y auditing Open edX installations.
+Home-page: https://github.com/edx/pa11ycrawler
+Author: edX
+Author-email: oscm@edx.org
+License: Apache-2.0
+Platform: UNKNOWN
+Requires-Dist: scrapy (==1.1.2)
+Requires-Dist: Jinja2 (<3.0)
+Requires-Dist: urlobject (<3.0)
+Requires-Dist: lxml (<4.0)
+Requires-Dist: path.py (<9.0)
+Requires-Dist: requests (<3.0)
+Requires-Dist: pyyaml (<4.0)
+
+pa11ycrawler is a Scrapy spider that runs a Pa11y check
+on every page of an Open edX installation,
+to audit it for accessibility purposes.
+

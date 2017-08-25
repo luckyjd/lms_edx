@@ -1,0 +1,34 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/oj-2.18.5/ext/oj
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-31837-1gxdncc.rb extconf.rb
+>>>>> Creating Makefile for ruby version 2.3.4 on x86_64-linux <<<<<
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/oj-2.18.5/ext/oj
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/oj-2.18.5/ext/oj
+make "DESTDIR="
+compiling hash.c
+compiling sparse.c
+compiling odd.c
+compiling cache8.c
+compiling oj.c
+compiling scp.c
+compiling saj.c
+compiling reader.c
+compiling strict.c
+compiling dump.c
+compiling object.c
+compiling hash_test.c
+compiling circarray.c
+compiling val_stack.c
+compiling parse.c
+compiling compat.c
+compiling resolve.c
+compiling err.c
+compiling fast.c
+linking shared-object oj/oj.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/oj-2.18.5/ext/oj
+make "DESTDIR=" install
+/bin/install -c -m 0755 oj.so ./.gem.20170811-31837-1hrku22/oj

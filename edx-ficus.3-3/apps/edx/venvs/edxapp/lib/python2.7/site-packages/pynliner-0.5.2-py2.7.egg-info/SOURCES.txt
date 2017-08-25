@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pynliner/__init__.py
+pynliner/soupselect.py
+pynliner.egg-info/PKG-INFO
+pynliner.egg-info/SOURCES.txt
+pynliner.egg-info/dependency_links.txt
+pynliner.egg-info/requires.txt
+pynliner.egg-info/top_level.txt

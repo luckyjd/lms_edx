@@ -1,0 +1,3 @@
+#!/bin/sh
+. /opt/lms_edx/edx-ficus.3-3/postgresql/bin/setenv.sh
+exec /opt/lms_edx/edx-ficus.3-3/postgresql/bin/pg_config.bin "$@"

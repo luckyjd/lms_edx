@@ -1,0 +1,25 @@
+=== 1.0.5 / Not released
+
+* Bug fixes
+
+  * Scanners with nested classes work better
+
+=== 1.0.4
+
+* Bug fixes
+
+  * Generated tokenizer only tokenizes on pulls
+
+=== 1.0.3
+
+* Bug fixes
+
+  * renamed to "Rexical" because someone already has "rex".
+
+=== 1.0.2
+
+* Bug fixes
+
+  * Fixed nested macros so that backslashes will work
+
+

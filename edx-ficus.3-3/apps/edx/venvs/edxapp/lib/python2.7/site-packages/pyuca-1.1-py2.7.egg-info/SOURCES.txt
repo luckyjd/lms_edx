@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+pyuca/__init__.py
+pyuca/allkeys-5.2.0.txt
+pyuca/allkeys-6.3.0.txt
+pyuca/collator.py
+pyuca/trie.py
+pyuca/utils.py
+pyuca.egg-info/PKG-INFO
+pyuca.egg-info/SOURCES.txt
+pyuca.egg-info/dependency_links.txt
+pyuca.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+#!/bin/sh
+. /opt/lms_edx/edx-ficus.3-3/apps/edx/scripts/edxapp_env
+cd /opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform
+python manage.py lms shell --settings $EDX_PLATFORM_SETTINGS

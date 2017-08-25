@@ -1,0 +1,4 @@
+
+    [babel.extractors]
+    underscore = django_babel_underscore:extract
+    

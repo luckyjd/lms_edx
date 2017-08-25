@@ -1,0 +1,15 @@
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_xor-1.1.1/ext/xor
+/bitnami/megastack-linux-x64/output/ruby/bin/ruby -r ./siteconf20170811-31692-4c0sea.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_xor-1.1.1/ext/xor
+make "DESTDIR=" clean
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_xor-1.1.1/ext/xor
+make "DESTDIR="
+compiling xor.c
+linking shared-object xor.so
+
+current directory: /bitnami/megastack-linux-x64/output/ruby/lib/ruby/gems/2.3.0/gems/fast_xor-1.1.1/ext/xor
+make "DESTDIR=" install
+/bin/install -c -m 0755 xor.so ./.gem.20170811-31692-14izj3k

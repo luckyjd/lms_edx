@@ -1,0 +1,326 @@
+2017-08-24 07:55:32,121 WARNING 15364 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:49: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomer(TimeStampedModel):
+
+2017-08-24 07:55:32,124 WARNING 15364 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalEnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 07:55:32,128 WARNING 15364 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:219: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 07:55:32,131 WARNING 15364 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:278: RemovedInDjango19Warning: Model class enterprise.models.PendingEnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class PendingEnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 07:55:32,134 WARNING 15364 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:327: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerBrandingConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerBrandingConfiguration(TimeStampedModel):
+
+2017-08-24 07:55:32,136 WARNING 15364 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:382: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerIdentityProvider doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerIdentityProvider(TimeStampedModel):
+
+2017-08-24 07:55:32,141 WARNING 15364 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalUserDataSharingConsentAudit doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 07:55:32,658 INFO 15364 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2017-08-24 07:55:49,510 WARNING 15407 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:49: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomer(TimeStampedModel):
+
+2017-08-24 07:55:49,513 WARNING 15407 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalEnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 07:55:49,518 WARNING 15407 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:219: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 07:55:49,520 WARNING 15407 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:278: RemovedInDjango19Warning: Model class enterprise.models.PendingEnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class PendingEnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 07:55:49,523 WARNING 15407 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:327: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerBrandingConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerBrandingConfiguration(TimeStampedModel):
+
+2017-08-24 07:55:49,526 WARNING 15407 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:382: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerIdentityProvider doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerIdentityProvider(TimeStampedModel):
+
+2017-08-24 07:55:49,531 WARNING 15407 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalUserDataSharingConsentAudit doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 07:55:49,859 INFO 15407 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2017-08-24 08:09:57,943 WARNING 16565 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:49: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomer(TimeStampedModel):
+
+2017-08-24 08:09:57,947 WARNING 16565 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalEnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:09:57,951 WARNING 16565 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:219: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:09:57,954 WARNING 16565 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:278: RemovedInDjango19Warning: Model class enterprise.models.PendingEnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class PendingEnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:09:57,956 WARNING 16565 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:327: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerBrandingConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerBrandingConfiguration(TimeStampedModel):
+
+2017-08-24 08:09:57,959 WARNING 16565 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:382: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerIdentityProvider doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerIdentityProvider(TimeStampedModel):
+
+2017-08-24 08:09:57,964 WARNING 16565 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalUserDataSharingConsentAudit doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:09:58,300 INFO 16565 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2017-08-24 08:20:26,619 WARNING 17953 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:49: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomer(TimeStampedModel):
+
+2017-08-24 08:20:26,622 WARNING 17953 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalEnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:20:26,626 WARNING 17953 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:219: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:20:26,629 WARNING 17953 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:278: RemovedInDjango19Warning: Model class enterprise.models.PendingEnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class PendingEnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:20:26,632 WARNING 17953 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:327: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerBrandingConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerBrandingConfiguration(TimeStampedModel):
+
+2017-08-24 08:20:26,635 WARNING 17953 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:382: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerIdentityProvider doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerIdentityProvider(TimeStampedModel):
+
+2017-08-24 08:20:26,640 WARNING 17953 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalUserDataSharingConsentAudit doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:20:26,989 INFO 17953 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2017-08-24 08:20:27,821 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:27,868 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:27,902 ERROR 17953 [xmodule.vertical_block] vertical_block.py:129 - Unable to load child when parsing Vertical. Continuing...
+Traceback (most recent call last):
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/vertical_block.py", line 126, in definition_from_xml
+    child_block = system.process_xml(etree.tostring(child, encoding='unicode'))
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/modulestore/xml.py", line 196, in process_xml
+    id_manager,
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1596, in xblock_from_node
+    self._convert_reference_fields_to_keys(block)  # difference from XBlock.runtime
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1640, in _convert_reference_fields_to_keys
+    field_value = getattr(xblock, field.name)
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/xblock/fields.py", line 507, in __get__
+    value = self.from_json(field_data.get(xblock, self.name))
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/xblock/fields.py", line 796, in from_json
+    raise TypeError('Value stored in a List must be None or a list, found %s' % type(value))
+TypeError: Value stored in a List must be None or a list, found <type 'str'>
+2017-08-24 08:20:27,904 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:27,946 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:27,984 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,067 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,107 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,139 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,178 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,208 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,238 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,271 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,300 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,735 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,767 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,822 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,932 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:28,983 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,049 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,088 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,202 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,271 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,366 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,432 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,478 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,509 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,550 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,579 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,616 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,656 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:29,960 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent pre_publish signal to <function on_pre_publish at 0x7f39c12d0ed8> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,226 INFO 17953 [openedx.core.lib.block_structure.cache] cache.py:121 - Deleted BlockStructure BlockUsageLocator(CourseLocator('edX', 'DemoX', 'Demo_Course', None, None), 'course', 'course') from the cache.
+2017-08-24 08:20:30,227 INFO 17953 [openedx.core.lib.celery.routers] routers.py:41 - TNL-5408: task=openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache, args=[u'course-v1:edX+DemoX+Demo_Course'], alternate_env=lms, queues=[u'edx.cms.core.default', u'edx.cms.core.high', u'edx.cms.core.low']
+2017-08-24 08:20:30,386 INFO 17953 [openedx.core.djangoapps.content.course_overviews.models] models.py:118 - Creating course overview for course-v1:edX+DemoX+Demo_Course.
+2017-08-24 08:20:30,411 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39c0cff050> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,411 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function listen_for_course_publish at 0x7f39bfd796e0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,412 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bfd377d0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,412 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bf6ec7d0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,412 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function listen_for_course_publish at 0x7f39bdf30c08> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,412 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34050> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,413 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34320> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:30,413 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f39bdf345f0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: Module "openedx.core.djangoapps.bookmarks.tasks" does not define a "update_xblock_cache" attribute/class
+2017-08-24 08:20:30,413 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34578> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:33,508 ERROR 17953 [root] content.py:461 - Failed to generate thumbnail for asset-v1:edX+DemoX+Demo_Course+type@asset+block@jsmol_Al2O3.png. Exception: cannot identify image file <StringIO.StringIO instance at 0x7f39bdb12638>
+Traceback (most recent call last):
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/contentstore/content.py", line 440, in generate_thumbnail
+    with Image.open(source) as image:
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/PIL/Image.py", line 2319, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file <StringIO.StringIO instance at 0x7f39bdb12638>
+2017-08-24 08:20:33,773 ERROR 17953 [root] content.py:461 - Failed to generate thumbnail for asset-v1:edX+DemoX+Demo_Course+type@asset+block@jsmol_1hxw.png. Exception: cannot identify image file <StringIO.StringIO instance at 0x7f39bd494758>
+Traceback (most recent call last):
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/contentstore/content.py", line 440, in generate_thumbnail
+    with Image.open(source) as image:
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/PIL/Image.py", line 2319, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file <StringIO.StringIO instance at 0x7f39bd494758>
+2017-08-24 08:20:37,757 INFO 17953 [root] xml_importer.py:290 - No assets.xml file is present with asset metadata.
+2017-08-24 08:20:40,924 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent pre_publish signal to <function on_pre_publish at 0x7f39c12d0ed8> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,177 INFO 17953 [openedx.core.lib.block_structure.cache] cache.py:121 - Deleted BlockStructure BlockUsageLocator(CourseLocator('edX', 'DemoX', 'Demo_Course', None, None), 'course', 'course') from the cache.
+2017-08-24 08:20:41,178 INFO 17953 [openedx.core.lib.celery.routers] routers.py:41 - TNL-5408: task=openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache, args=[u'course-v1:edX+DemoX+Demo_Course'], alternate_env=lms, queues=[u'edx.cms.core.default', u'edx.cms.core.high', u'edx.cms.core.low']
+2017-08-24 08:20:41,436 INFO 17953 [openedx.core.djangoapps.content.course_overviews.models] models.py:118 - Creating course overview for course-v1:edX+DemoX+Demo_Course.
+2017-08-24 08:20:41,454 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39c0cff050> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,455 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function listen_for_course_publish at 0x7f39bfd796e0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,455 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bfd377d0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,455 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bf6ec7d0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,456 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function listen_for_course_publish at 0x7f39bdf30c08> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,456 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34050> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,456 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34320> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,456 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f39bdf345f0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: Module "openedx.core.djangoapps.bookmarks.tasks" does not define a "update_xblock_cache" attribute/class
+2017-08-24 08:20:41,456 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34578> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:41,724 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:41,757 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/problem/Sample_ChemFormula_Problem has more than one definition
+2017-08-24 08:20:41,757 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:41,790 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/discussion/4d672c5893cb4f1dad0de67d2008522e has more than one definition
+2017-08-24 08:20:41,868 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/html/2b94658d2eee4d85ae13f83bc24cfca9 has more than one definition
+2017-08-24 08:20:41,879 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/problem/700x_editmolB has more than one definition
+2017-08-24 08:20:41,880 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:41,890 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/discussion/0aa7a3bdbe18427795b0c1a1d7c3cb9a has more than one definition
+2017-08-24 08:20:41,964 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/html/Lab_5B_Mosfet_Amplifier_Experiment has more than one definition
+2017-08-24 08:20:41,964 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:41,974 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/discussion/03f051f9a8814881a3783d2511613aa6 has more than one definition
+2017-08-24 08:20:41,995 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/html/ed5dccf14ae94353961f46fa07217491 has more than one definition
+2017-08-24 08:20:41,998 ERROR 17953 [xmodule.vertical_block] vertical_block.py:129 - Unable to load child when parsing Vertical. Continuing...
+Traceback (most recent call last):
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/vertical_block.py", line 126, in definition_from_xml
+    child_block = system.process_xml(etree.tostring(child, encoding='unicode'))
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/modulestore/xml.py", line 196, in process_xml
+    id_manager,
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1596, in xblock_from_node
+    self._convert_reference_fields_to_keys(block)  # difference from XBlock.runtime
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1640, in _convert_reference_fields_to_keys
+    field_value = getattr(xblock, field.name)
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/xblock/fields.py", line 507, in __get__
+    value = self.from_json(field_data.get(xblock, self.name))
+  File "/opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/xblock/fields.py", line 796, in from_json
+    raise TypeError('Value stored in a List must be None or a list, found %s' % type(value))
+TypeError: Value stored in a List must be None or a list, found <type 'str'>
+2017-08-24 08:20:41,998 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:42,009 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/discussion/9f9e1373cc8243b985c8750cc8acec7d has more than one definition
+2017-08-24 08:20:42,020 WARNING 17953 [xmodule.modulestore.xml] xml.py:169 - Non-unique url_name in xml.  This may break state tracking for content.  url_name=New_Unit.  Content=<vertical display_name="New Unit" parent_sequential_url="i4x://edX/DemoX/sequential/07bc32474380492c
+2017-08-24 08:20:42,042 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/html/d45779ad3d024a40a09ad8cc317c0970 has more than one definition
+2017-08-24 08:20:42,052 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/html/55cbc99f262443d886a25cf84594eafb has more than one definition
+2017-08-24 08:20:42,053 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:42,063 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/discussion/ade92343df3d4953a40ab3adc8805390 has more than one definition
+2017-08-24 08:20:42,084 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/html/78e3719e864e45f3bee938461f3c3de6 has more than one definition
+2017-08-24 08:20:42,096 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/problem/700x_proteinmake has more than one definition
+2017-08-24 08:20:42,096 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:42,106 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/discussion/ed01bcd164e64038a78964a16eac3edc has more than one definition
+2017-08-24 08:20:42,119 WARNING 17953 [xmodule.modulestore.xml] xml.py:169 - Non-unique url_name in xml.  This may break state tracking for content.  url_name=Video_Demonstrations.  Content=<vertical display_name="Video Demonstrations" parent_sequential_url="i4x://edX/DemoX/sequential/19a3
+2017-08-24 08:20:42,178 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/openassessment/b24c33ea35954c7889e1d2944d3fe397 has more than one definition
+2017-08-24 08:20:42,179 WARNING 17953 [root] mixins.py:519 - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+2017-08-24 08:20:42,189 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/discussion/12ad4f3ff4c14114a6e629b00e000976 has more than one definition
+2017-08-24 08:20:42,230 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/html/030e35c4756a4ddc8d40b95fbbfff4d4 has more than one definition
+2017-08-24 08:20:42,240 WARNING 17953 [xmodule.modulestore.xml] xml.py:233 - i4x://edX/DemoX/video/0b9e39477cf34507a7a48f74be381fdd has more than one definition
+2017-08-24 08:20:43,275 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent pre_publish signal to <function on_pre_publish at 0x7f39c12d0ed8> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,412 INFO 17953 [openedx.core.lib.block_structure.cache] cache.py:121 - Deleted BlockStructure BlockUsageLocator(CourseLocator('edX', 'DemoX', 'Demo_Course', None, None), 'course', 'course') from the cache.
+2017-08-24 08:20:43,413 INFO 17953 [openedx.core.lib.celery.routers] routers.py:41 - TNL-5408: task=openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache, args=[u'course-v1:edX+DemoX+Demo_Course'], alternate_env=lms, queues=[u'edx.cms.core.default', u'edx.cms.core.high', u'edx.cms.core.low']
+2017-08-24 08:20:43,666 INFO 17953 [openedx.core.djangoapps.content.course_overviews.models] models.py:118 - Creating course overview for course-v1:edX+DemoX+Demo_Course.
+2017-08-24 08:20:43,683 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39c0cff050> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,684 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function listen_for_course_publish at 0x7f39bfd796e0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,684 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bfd377d0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,684 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bf6ec7d0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,684 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function listen_for_course_publish at 0x7f39bdf30c08> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,685 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34050> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,685 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34320> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:20:43,685 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f39bdf345f0> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: Module "openedx.core.djangoapps.bookmarks.tasks" does not define a "update_xblock_cache" attribute/class
+2017-08-24 08:20:43,686 INFO 17953 [xmodule.modulestore.django] django.py:116 - Sent course_published signal to <function _listen_for_course_publish at 0x7f39bdf34578> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+2017-08-24 08:25:14,081 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:49: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomer(TimeStampedModel):
+
+2017-08-24 08:25:14,084 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalEnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:25:14,089 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:219: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:25:14,091 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:278: RemovedInDjango19Warning: Model class enterprise.models.PendingEnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class PendingEnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:25:14,094 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:327: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerBrandingConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerBrandingConfiguration(TimeStampedModel):
+
+2017-08-24 08:25:14,097 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:382: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerIdentityProvider doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerIdentityProvider(TimeStampedModel):
+
+2017-08-24 08:25:14,102 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalUserDataSharingConsentAudit doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:25:14,428 INFO 17760 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2017-08-24 08:25:14,659 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:16: RemovedInDjango19Warning: Model class oauth_provider.models.Nonce doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Nonce(models.Model):
+
+2017-08-24 08:25:14,663 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:26: RemovedInDjango19Warning: Model class oauth_provider.models.Scope doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Scope(models.Model):
+
+2017-08-24 08:25:14,665 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:35: RemovedInDjango19Warning: Model class oauth_provider.models.Resource doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Resource(Scope):
+
+2017-08-24 08:25:14,667 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:45: RemovedInDjango19Warning: Model class oauth_provider.models.Consumer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Consumer(models.Model):
+
+2017-08-24 08:25:14,671 WARNING 17760 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:73: RemovedInDjango19Warning: Model class oauth_provider.models.Token doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Token(models.Model):
+
+2017-08-24 08:25:14,758 INFO 17760 [tracking] logger.py:50 - {"username": "nhattx", "event_type": "/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc", "ip": "117.6.95.7", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36", "host": "lms.wu.edu.vn", "referer": "http://lms.wu.edu.vn/courses/course-v1:edX+DemoX+Demo_Course/courseware/d8a6192ade314473a78242dfeedfbf5b/edx_introduction/", "accept_language": "en-US,en;q=0.8,vi;q=0.6", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": 2, "org_id": "", "course_id": "", "path": "/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc"}, "time": "2017-08-24T12:25:14.758338+00:00", "page": null}
+2017-08-24 08:25:15,368 WARNING 17760 [DEALER] null.py:19 - Dealer uses "null" revision.
+2017-08-24 08:25:16,109 INFO 17760 [tracking] logger.py:50 - {"username": "nhattx", "event_type": "/favicon.ico", "ip": "117.6.95.7", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36", "host": "lms.wu.edu.vn", "referer": "http://lms.wu.edu.vn:18010/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc", "accept_language": "en-US,en;q=0.8,vi;q=0.6", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": 2, "org_id": "", "course_id": "", "path": "/favicon.ico"}, "time": "2017-08-24T12:25:16.108836+00:00", "page": null}
+2017-08-24 08:25:16,624 INFO 17760 [tracking] logger.py:50 - {"username": "nhattx", "event_type": "/xmodule/xmodule.js", "ip": "117.6.95.7", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36", "host": "lms.wu.edu.vn", "referer": "http://lms.wu.edu.vn:18010/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc", "accept_language": "en-US,en;q=0.8,vi;q=0.6", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": 2, "org_id": "", "course_id": "", "path": "/xmodule/xmodule.js"}, "time": "2017-08-24T12:25:16.623849+00:00", "page": null}
+2017-08-24 08:25:16,808 INFO 17760 [tracking] logger.py:50 - {"username": "nhattx", "event_type": "/xblock/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc/container_preview", "ip": "117.6.95.7", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36", "host": "lms.wu.edu.vn", "referer": "http://lms.wu.edu.vn:18010/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc", "accept_language": "en-US,en;q=0.8,vi;q=0.6", "event": "{\"POST\": {}, \"GET\": {\"_\": [\"1503578562259\"]}}", "event_source": "server", "context": {"user_id": 2, "org_id": "", "course_id": "", "path": "/xblock/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc/container_preview"}, "time": "2017-08-24T12:25:16.807774+00:00", "page": null}
+2017-08-24 08:25:17,227 INFO 17760 [tracking] logger.py:50 - {"username": "nhattx", "event_type": "/preview/xblock/block-v1:edX+DemoX+Demo_Course+type@video+block@0b9e39477cf34507a7a48f74be381fdd/handler/transcript/translation/en", "ip": "117.6.95.7", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36", "host": "lms.wu.edu.vn", "referer": "http://lms.wu.edu.vn:18010/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc", "accept_language": "en-US,en;q=0.8,vi;q=0.6", "event": "{\"POST\": {}, \"GET\": {\"videoId\": [\"b7xgknqkQk8\"]}}", "event_source": "server", "context": {"user_id": 2, "org_id": "", "course_id": "", "path": "/preview/xblock/block-v1:edX+DemoX+Demo_Course+type@video+block@0b9e39477cf34507a7a48f74be381fdd/handler/transcript/translation/en"}, "time": "2017-08-24T12:25:17.226814+00:00", "page": null}
+2017-08-24 08:25:22,771 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:49: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomer(TimeStampedModel):
+
+2017-08-24 08:25:22,774 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalEnterpriseCustomer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:25:22,778 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:219: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:25:22,780 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:278: RemovedInDjango19Warning: Model class enterprise.models.PendingEnterpriseCustomerUser doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class PendingEnterpriseCustomerUser(TimeStampedModel):
+
+2017-08-24 08:25:22,783 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:327: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerBrandingConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerBrandingConfiguration(TimeStampedModel):
+
+2017-08-24 08:25:22,786 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/enterprise/models.py:382: RemovedInDjango19Warning: Model class enterprise.models.EnterpriseCustomerIdentityProvider doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EnterpriseCustomerIdentityProvider(TimeStampedModel):
+
+2017-08-24 08:25:22,791 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/simple_history/models.py:123: RemovedInDjango19Warning: Model class enterprise.models.HistoricalUserDataSharingConsentAudit doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  type(str(name), self.bases, attrs))
+
+2017-08-24 08:25:23,108 INFO 17759 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2017-08-24 08:25:23,325 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:16: RemovedInDjango19Warning: Model class oauth_provider.models.Nonce doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Nonce(models.Model):
+
+2017-08-24 08:25:23,328 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:26: RemovedInDjango19Warning: Model class oauth_provider.models.Scope doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Scope(models.Model):
+
+2017-08-24 08:25:23,330 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:35: RemovedInDjango19Warning: Model class oauth_provider.models.Resource doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Resource(Scope):
+
+2017-08-24 08:25:23,333 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:45: RemovedInDjango19Warning: Model class oauth_provider.models.Consumer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Consumer(models.Model):
+
+2017-08-24 08:25:23,336 WARNING 17759 [py.warnings] base.py:116 - /opt/lms_edx/edx-ficus.3-3/apps/edx/venvs/edxapp/lib/python2.7/site-packages/oauth_provider/models.py:73: RemovedInDjango19Warning: Model class oauth_provider.models.Token doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Token(models.Model):
+
+2017-08-24 08:25:23,573 INFO 17759 [tracking] logger.py:50 - {"username": "nhattx", "event_type": "/xblock/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc", "ip": "117.6.95.7", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36", "host": "lms.wu.edu.vn", "referer": "http://lms.wu.edu.vn:18010/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc", "accept_language": "en-US,en;q=0.8,vi;q=0.6", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": 2, "org_id": "", "course_id": "", "path": "/xblock/container/block-v1:edX+DemoX+Demo_Course+type@vertical+block@vertical_0270f6de40fc"}, "time": "2017-08-24T12:25:23.572739+00:00", "page": null}
+2017-08-24 10:41:51,946 INFO 17760 [tracking] logger.py:50 - {"username": "", "event_type": "/robots.txt", "ip": "66.249.77.22", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "uniqloxachtay.com", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/robots.txt"}, "time": "2017-08-24T14:41:51.945186+00:00", "page": null}
+2017-08-24 10:41:52,534 INFO 17759 [tracking] logger.py:50 - {"username": "", "event_type": "/", "ip": "66.249.79.91", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "uniqloxachtay.com", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/"}, "time": "2017-08-24T14:41:52.533873+00:00", "page": null}
+2017-08-24 10:41:52,835 WARNING 17759 [DEALER] null.py:19 - Dealer uses "null" revision.
+2017-08-24 10:51:05,489 INFO 17760 [tracking] logger.py:50 - {"username": "", "event_type": "/robots.txt", "ip": "66.249.77.28", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "www.kingmobile.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/robots.txt"}, "time": "2017-08-24T14:51:05.489304+00:00", "page": null}
+2017-08-24 10:51:06,055 INFO 17759 [tracking] logger.py:50 - {"username": "", "event_type": "/", "ip": "66.249.77.28", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "www.kingmobile.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/"}, "time": "2017-08-24T14:51:06.055258+00:00", "page": null}
+2017-08-24 10:55:58,148 INFO 17760 [tracking] logger.py:50 - {"username": "", "event_type": "/signin", "ip": "66.249.79.42", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "www.kingmobile.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/signin"}, "time": "2017-08-24T14:55:58.147702+00:00", "page": null}
+2017-08-24 10:56:20,370 INFO 17759 [tracking] logger.py:50 - {"username": "", "event_type": "/signup", "ip": "66.249.77.28", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "www.kingmobile.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/signup"}, "time": "2017-08-24T14:56:20.370002+00:00", "page": null}
+2017-08-24 10:56:32,971 INFO 17760 [tracking] logger.py:50 - {"username": "", "event_type": "/signin", "ip": "66.249.79.91", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "uniqloxachtay.com", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/signin"}, "time": "2017-08-24T14:56:32.970643+00:00", "page": null}
+2017-08-24 10:56:50,763 INFO 17759 [tracking] logger.py:50 - {"username": "", "event_type": "/signup", "ip": "66.249.77.22", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "uniqloxachtay.com", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/signup"}, "time": "2017-08-24T14:56:50.762706+00:00", "page": null}
+2017-08-24 11:21:04,184 INFO 17760 [tracking] logger.py:50 - {"username": "", "event_type": "/robots.txt", "ip": "66.249.71.15", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "lms.wu.edu.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/robots.txt"}, "time": "2017-08-24T15:21:04.184141+00:00", "page": null}
+2017-08-24 11:21:04,381 INFO 17759 [tracking] logger.py:50 - {"username": "", "event_type": "/", "ip": "66.249.71.15", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "lms.wu.edu.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/"}, "time": "2017-08-24T15:21:04.380730+00:00", "page": null}
+2017-08-24 11:27:05,340 INFO 17760 [tracking] logger.py:50 - {"username": "", "event_type": "/", "ip": "66.249.71.15", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "lms.wu.edu.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/"}, "time": "2017-08-24T15:27:05.340045+00:00", "page": null}
+2017-08-24 11:27:32,734 INFO 17759 [tracking] logger.py:50 - {"username": "", "event_type": "/signup", "ip": "66.249.71.16", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "lms.wu.edu.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/signup"}, "time": "2017-08-24T15:27:32.733807+00:00", "page": null}
+2017-08-24 11:28:14,151 INFO 17760 [tracking] logger.py:50 - {"username": "", "event_type": "/signin", "ip": "66.249.71.16", "agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "host": "lms.wu.edu.vn", "referer": "", "accept_language": "", "event": "{\"POST\": {}, \"GET\": {}}", "event_source": "server", "context": {"user_id": null, "org_id": "", "course_id": "", "path": "/signin"}, "time": "2017-08-24T15:28:14.151589+00:00", "page": null}
